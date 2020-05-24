@@ -8,6 +8,7 @@ import com.intuit.karate.junit5.Karate;
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ class ExamplesTest {
         return Karate.run().relativeTo(getClass());
     }
 
-    @Karate.Test
+    @Test
     void testruninParallel() {
 //       Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
         Results results = Runner.path("classpath:examples").tags("~@ignore").parallel(2);
