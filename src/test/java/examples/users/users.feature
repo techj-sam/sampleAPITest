@@ -4,6 +4,7 @@ Feature: sample karate test script
   Background:
     * url 'https://jsonplaceholder.typicode.com'
 
+  @GetAllUsers
   Scenario: get all users and then get the first user by id
     Given path 'users'
     When method get
@@ -15,6 +16,7 @@ Feature: sample karate test script
     When method get
     Then status 200
 
+  @CreateUser
   Scenario: create a user and then get it by id
     * def user =
       """
@@ -39,8 +41,53 @@ Feature: sample karate test script
     * def id = response.id
     * print 'created id is: ', id
 
-    Given path id
-    # When method get
-    # Then status 200
-    # And match response contains user
-  
+  # path will be url+ what parameter we will pass
+  # In following example url is https://jsonplaceholder.typicode.com/users and parameter is 10
+  Scenario: User should get a specific user information based on provided id
+    Given url 'https://jsonplaceholder.typicode.com/users'
+    And path 10
+    When method get
+    Then status 200
+    And match response contains {"name": "Clementina DuBuque"}
+
+  @PutRequest
+  Scenario: User can update data using PUT request
+    Given url 'https://jsonplaceholder.typicode.com/posts'
+    * def user  =
+    """
+    {
+      id: 1,
+      title: 'updating Resource using PUT',
+    }
+    """
+    Given path 1
+    And request user
+    When method PUT
+    Then status 200
+    And print response
+    And match response contains {"id": 1, "title": "updated Resource"}
+
+  @PatchRequest
+  Scenario: User can update data using PATCH request
+    Given url 'https://jsonplaceholder.typicode.com/posts'
+    * def user  =
+      """
+      {
+        id: 1,
+        title: 'updating Resource using patch',
+      }
+      """
+    Given path 1
+    And request user
+    When method PATCH
+    Then status 200
+    And print response
+    And match response contains {"id": 1, "title": "updated Resource using patch"}
+
+  @DeleteRequest
+  Scenario: User can delete data using Delete request
+    Given url 'https://jsonplaceholder.typicode.com/posts'
+    Given path 1
+    When method DELETE
+    Then status 200
+
