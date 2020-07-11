@@ -20,7 +20,7 @@ Feature: sample karate session scenario
     Examples:
       | employeeID |
       | 3          |
-      | 4          |
+      | 4         |
 
     Scenario:  User should be able to create a new employee
       Given path "api/v1/create"
