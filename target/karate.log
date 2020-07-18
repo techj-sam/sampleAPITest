@@ -1,32 +1,30 @@
-21:16:05.452 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:06.343 [main] DEBUG com.intuit.karate - request:
+10:42:19.508 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:20.092 [main] DEBUG com.intuit.karate - request:
 1 > GET http://dummy.restapiexample.com/api/v1/employees
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: dummy.restapiexample.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:08.703 [main] DEBUG com.intuit.karate - response time in milliseconds: 2351.41
+10:42:20.756 [main] DEBUG com.intuit.karate - response time in milliseconds: 658.59
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Cache-Control: max-age=31536000
 1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:08 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < Pragma: no-cache
+1 < Date: Sat, 18 Jul 2020 05:12:18 GMT
+1 < Display: staticcontent_sol
 1 < Referrer-Policy: 
 1 < Response: 200
 1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=11b593fb715757774001d72512f761ec; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:08 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:08 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:08 UTC, active_template::133674=pub_site.1588866368; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:08 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
 1 < X-Middleton-Response: 200
 1 < X-Sol: pub_site
 {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
 
-21:16:08.703 [main] INFO  com.intuit.karate - [print] {
+10:42:20.768 [main] INFO  com.intuit.karate - [print] {
   "data": [
     {
       "profile_image": "",
@@ -200,131 +198,98 @@
   "status": "success"
 }
 
-21:16:08.750 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:08.750 [main] DEBUG com.intuit.karate - request:
+10:42:20.832 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:20.844 [main] DEBUG com.intuit.karate - request:
 1 > GET http://dummy.restapiexample.com/api/v1/employee/3
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: dummy.restapiexample.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:09.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 1077.83
-1 < 400
+10:42:21.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 954.54
+1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-cache
-1 < Content-Length: 75
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:10 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 900
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 18 Jul 2020 05:12:19 GMT
+1 < Display: pub_site_to_orig_sol
 1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
 1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 400
+1 < Response: 200
 1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=b724f1e84714decea86ff8f18bdf1028; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:09 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:09 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:09 UTC, active_template::133674=pub_site.1588866369; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:09 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,X-APP-JSON]
+1 < Set-Cookie: [PHPSESSID=041f8267f0931a2a3f8e742bf87b58fc; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:19 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:19 UTC, ezoab_133674=mod78-c; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:19 UTC, active_template::133674=pub_site.1595049139; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:19 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/3; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:19 UTC, ezovuuidtime_133674=1595049139; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:19 UTC, ezovuuid_133674=9630a612-d549-44ad-6516-76eba577ee80; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:19 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:20 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:20 GMT]
+1 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
 1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 400
+1 < X-Middleton-Display: pub_site_to_orig_sol
+1 < X-Middleton-Response: 200
 1 < X-Sol: pub_site
-{"status":"failed","message":"Oops! someting issue found to fetch record."}
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
 
-21:16:09.843 [main] ERROR com.intuit.karate - status code was: 400, expected: 200, response time: 1078, url: http://dummy.restapiexample.com/api/v1/employee/3, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
-21:16:10.062 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:10.062 [main] DEBUG com.intuit.karate - request:
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+
+10:42:21.841 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name "async" associated with an element type "script" must be followed by the ' = ' character.
+10:42:21.845 [main] INFO  com.intuit.karate - [print] <script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+10:42:21.853 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:21.861 [main] DEBUG com.intuit.karate - request:
 1 > GET http://dummy.restapiexample.com/api/v1/employee/4
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: dummy.restapiexample.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:11.110 [main] DEBUG com.intuit.karate - response time in milliseconds: 1032.85
-1 < 400
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-cache
-1 < Content-Length: 75
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:11 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 400
-1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=2613afc8c03e553680c28bf509a16b48; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:10 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:10 UTC, ezoab_133674=mod94; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:10 UTC, active_template::133674=pub_site.1588866370; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:10 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 400
-1 < X-Sol: pub_site
-{"status":"failed","message":"Oops! someting issue found to fetch record."}
-
-21:16:11.110 [main] ERROR com.intuit.karate - status code was: 400, expected: 200, response time: 1033, url: http://dummy.restapiexample.com/api/v1/employee/4, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
-21:16:11.172 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:11.188 [main] DEBUG com.intuit.karate - request:
-1 > POST http://dummy.restapiexample.com/api/v1/create
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Content-Length: 50
-1 > Content-Type: application/json; charset=UTF-8
-1 > Host: dummy.restapiexample.com
-1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
-{"name":"testSession","salary":"25000","age":"45"}
-
-21:16:12.235 [main] DEBUG com.intuit.karate - response time in milliseconds: 1037.06
+10:42:22.793 [main] DEBUG com.intuit.karate - response time in milliseconds: 931.57
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
 1 < Cache-Control: no-store, no-cache, must-revalidate
-1 < Content-Length: 86
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:12 GMT
+1 < Content-Length: 900
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 18 Jul 2020 05:12:20 GMT
+1 < Display: pub_site_to_orig_sol
 1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
 1 < Pragma: no-cache
-1 < Referrer-Policy: 
 1 < Response: 200
 1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=1b3ae2fa88b788066c0ae6655d09f7d0; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:11 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:11 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:11 UTC, active_template::133674=pub_site.1588866371; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:11 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,X-APP-JSON]
+1 < Set-Cookie: [PHPSESSID=9405066470f58b6f3bb96b9c3e5d627f; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:20 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:20 UTC, ezoab_133674=mod22; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:20 UTC, active_template::133674=pub_site.1595049140; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:20 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/4; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:20 UTC, ezovuuidtime_133674=1595049140; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:20 UTC, ezovuuid_133674=7ebd5df6-fc84-45cf-50d5-71547a095620; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:20 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:20 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:20 GMT]
+1 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
 1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: pub_site_to_orig_sol
 1 < X-Middleton-Response: 200
 1 < X-Sol: pub_site
-{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":35}}
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
 
-21:16:12.266 [main] INFO  com.intuit.karate - [print] 35
-21:16:12.266 [main] DEBUG com.intuit.karate - request:
-2 > GET http://dummy.restapiexample.com/api/v1/employee/35
-2 > Accept-Encoding: gzip,deflate
-2 > Connection: Keep-Alive
-2 > Cookie: PHPSESSID=1b3ae2fa88b788066c0ae6655d09f7d0; active_template::133674=pub_site.1588866371; ezoab_133674=mod1; ezoadgid_133674=-1; ezoref_133674=
-2 > Host: dummy.restapiexample.com
-2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
 
-21:16:13.188 [main] DEBUG com.intuit.karate - response time in milliseconds: 920.62
-2 < 401
-2 < Access-Control-Allow-Origin: *
-2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-2 < Cache-Control: no-cache
-2 < Content-Length: 51
-2 < Content-Type: application/json;charset=utf-8
-2 < Date: Thu, 07 May 2020 15:46:13 GMT
-2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-2 < Pragma: no-cache
-2 < Referrer-Policy: 
-2 < Response: 401
-2 < Server: nginx/1.16.0
-2 < Set-Cookie: [ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:13 UTC, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:13 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:13 UTC, active_template::133674=pub_site.1588866373; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:13 UTC]
-2 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
-2 < X-Ezoic-Cdn: Miss
-2 < X-Middleton-Response: 401
-2 < X-Sol: pub_site
-{"status":"failed","data":"Record does not found."}
+10:42:22.801 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name "async" associated with an element type "script" must be followed by the ' = ' character.
+10:42:22.801 [main] INFO  com.intuit.karate - [print] <script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
 
-21:16:13.188 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 921, url: http://dummy.restapiexample.com/api/v1/employee/35, response: {"data":"Record does not found.","status":"failed"}
-21:16:13.282 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:13.297 [main] DEBUG com.intuit.karate - request:
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+10:42:22.825 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:22.857 [main] DEBUG com.intuit.karate - request:
 1 > POST http://dummy.restapiexample.com/api/v1/create
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -334,60 +299,143 @@
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {"name":"testSession","salary":"25000","age":"45"}
 
-21:16:14.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 994.76
+10:42:23.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 1053.33
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
 1 < Cache-Control: no-store, no-cache, must-revalidate
 1 < Content-Length: 86
 1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:14 GMT
+1 < Date: Sat, 18 Jul 2020 05:12:22 GMT
+1 < Display: staticcontent_sol
 1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 1 < Pragma: no-cache
-1 < Referrer-Policy: 
 1 < Response: 200
 1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=1bd27ef531239768336151c4b629e9c1; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:14 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:14 UTC, ezoab_133674=mod28-c; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:14 UTC, active_template::133674=pub_site.1588866374; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:14 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,X-APP-JSON]
+1 < Set-Cookie: PHPSESSID=8d1cc3e0439d3e659823b02f1a57e419; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
 1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
 1 < X-Middleton-Response: 200
 1 < X-Sol: pub_site
 {"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":98}}
 
-21:16:14.282 [main] INFO  com.intuit.karate - [print] 98
-21:16:14.297 [main] DEBUG com.intuit.karate - request:
+10:42:23.937 [main] INFO  com.intuit.karate - [print] 98
+10:42:23.957 [main] DEBUG com.intuit.karate - request:
 2 > GET http://dummy.restapiexample.com/api/v1/employee/98
 2 > Accept-Encoding: gzip,deflate
 2 > Connection: Keep-Alive
-2 > Cookie: PHPSESSID=1bd27ef531239768336151c4b629e9c1; active_template::133674=pub_site.1588866374; ezoab_133674=mod28-c; ezoadgid_133674=-1; ezoref_133674=
+2 > Cookie: PHPSESSID=8d1cc3e0439d3e659823b02f1a57e419
 2 > Host: dummy.restapiexample.com
 2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:15.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 968.50
-2 < 401
+10:42:25.138 [main] DEBUG com.intuit.karate - response time in milliseconds: 1179.89
+2 < 200
 2 < Access-Control-Allow-Origin: *
 2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-2 < Cache-Control: no-cache
-2 < Content-Length: 51
+2 < Cache-Control: no-store, no-cache, must-revalidate
+2 < Content-Length: 113
 2 < Content-Type: application/json;charset=utf-8
-2 < Date: Thu, 07 May 2020 15:46:15 GMT
+2 < Date: Sat, 18 Jul 2020 05:12:23 GMT
+2 < Display: staticcontent_sol
 2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 2 < Pragma: no-cache
-2 < Referrer-Policy: 
-2 < Response: 401
+2 < Response: 200
 2 < Server: nginx/1.16.0
-2 < Set-Cookie: [ezoab_133674=mod28-c; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:15 UTC, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:15 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:15 UTC, active_template::133674=pub_site.1588866375; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:15 UTC]
-2 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+2 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
 2 < X-Ezoic-Cdn: Miss
-2 < X-Middleton-Response: 401
+2 < X-Middleton-Display: staticcontent_sol
+2 < X-Middleton-Response: 200
 2 < X-Sol: pub_site
-{"status":"failed","data":"Record does not found."}
+{"status":"success","data":{"employee_name":"testSession","employee_salary":"25000","employee_age":"45","id":98}}
 
-21:16:15.266 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 969, url: http://dummy.restapiexample.com/api/v1/employee/98, response: {"data":"Record does not found.","status":"failed"}
-21:16:15.360 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:15.376 [main] DEBUG com.intuit.karate - request:
+10:42:25.142 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "employee_name": "testSession",
+    "employee_salary": "25000",
+    "id": 98,
+    "employee_age": "45"
+  },
+  "status": "success"
+}
+
+10:42:25.162 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:25.198 [main] DEBUG com.intuit.karate - request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"testSession","salary":"25000","age":"45"}
+
+10:42:26.166 [main] DEBUG com.intuit.karate - response time in milliseconds: 967.73
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 86
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:24 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=bd1a20f0605d173b760d81f6a7269b1b; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":42}}
+
+10:42:26.170 [main] INFO  com.intuit.karate - [print] 42
+10:42:26.174 [main] DEBUG com.intuit.karate - request:
+2 > GET http://dummy.restapiexample.com/api/v1/employee/42
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: PHPSESSID=bd1a20f0605d173b760d81f6a7269b1b
+2 > Host: dummy.restapiexample.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:26.982 [main] DEBUG com.intuit.karate - response time in milliseconds: 807.65
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 < Cache-Control: no-store, no-cache, must-revalidate
+2 < Content-Length: 113
+2 < Content-Type: application/json;charset=utf-8
+2 < Date: Sat, 18 Jul 2020 05:12:25 GMT
+2 < Display: staticcontent_sol
+2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Pragma: no-cache
+2 < Response: 200
+2 < Server: nginx/1.16.0
+2 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Sol: pub_site
+{"status":"success","data":{"employee_name":"testSession","employee_salary":"25000","employee_age":"45","id":42}}
+
+10:42:26.986 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "employee_name": "testSession",
+    "employee_salary": "25000",
+    "id": 42,
+    "employee_age": "45"
+  },
+  "status": "success"
+}
+
+10:42:27.158 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:27.170 [main] DEBUG com.intuit.karate - request:
 1 > POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -404,11 +452,11 @@
 </Body>
 </Envelope>
 
-21:16:16.251 [main] DEBUG com.intuit.karate - response time in milliseconds: 862.89
+10:42:27.698 [main] DEBUG com.intuit.karate - response time in milliseconds: 526.58
 1 < 200
 1 < Cache-Control: private, max-age=0
 1 < Content-Type: text/xml; charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:15 GMT
+1 < Date: Sat, 18 Jul 2020 05:12:22 GMT
 1 < Server: Microsoft-IIS/8.5
 1 < Vary: Accept-Encoding
 1 < Web-Service: DataFlex 19.1
@@ -421,7 +469,7 @@
   </soap:Body>
 </soap:Envelope>
 
-21:16:16.251 [main] INFO  com.intuit.karate - [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+10:42:27.706 [main] INFO  com.intuit.karate - [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
       <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
@@ -429,36 +477,39 @@
   </soap:Body>
 </soap:Envelope>
 
-21:16:16.344 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:16.360 [main] DEBUG com.intuit.karate - request:
+10:42:27.842 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:27.854 [main] DEBUG com.intuit.karate - request:
 1 > GET https://jsonplaceholder.typicode.com/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: jsonplaceholder.typicode.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:17.462 [main] DEBUG com.intuit.karate - response time in milliseconds: 1098.65
+10:42:28.534 [main] DEBUG com.intuit.karate - response time in milliseconds: 676.64
 1 < 200
 1 < Access-Control-Allow-Credentials: true
-1 < Age: 1129
+1 < Age: 14481
 1 < CF-Cache-Status: HIT
-1 < CF-RAY: 58fc12add9260696-LHR
-1 < Cache-Control: max-age=14400
+1 < CF-RAY: 5b49b52ede51d789-MRS
+1 < Cache-Control: max-age=43200
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:17 GMT
+1 < Date: Sat, 18 Jul 2020 05:12:26 GMT
 1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Expires: -1
 1 < Pragma: no-cache
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d992f79425d756893f01728593f2625801588866377; expires=Sat, 06-Jun-20 15:46:17 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Set-Cookie: __cfduid=df6120d888aced47b47f9d1e5a1cc38e21595049146; expires=Mon, 17-Aug-20 05:12:26 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 < Transfer-Encoding: chunked
 1 < Vary: Origin, Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Content-Type-Options: nosniff
 1 < X-Powered-By: Express
-1 < cf-request-id: 02916a00a200000696c8b23200000001
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1594345410
+1 < cf-request-id: 0401ef91450000d789db96b200000001
 [
   {
     "id": 1,
@@ -692,24 +743,24 @@
   }
 ]
 
-21:16:17.508 [main] DEBUG com.intuit.karate - request:
+10:42:28.618 [main] DEBUG com.intuit.karate - request:
 2 > GET https://jsonplaceholder.typicode.com/users/1
 2 > Accept-Encoding: gzip,deflate
 2 > Connection: Keep-Alive
-2 > Cookie: __cfduid=d992f79425d756893f01728593f2625801588866377
+2 > Cookie: __cfduid=df6120d888aced47b47f9d1e5a1cc38e21595049146
 2 > Host: jsonplaceholder.typicode.com
 2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-21:16:17.993 [main] DEBUG com.intuit.karate - response time in milliseconds: 478.82
+10:42:28.934 [main] DEBUG com.intuit.karate - response time in milliseconds: 317.08
 2 < 200
 2 < Access-Control-Allow-Credentials: true
-2 < Age: 6993
+2 < Age: 1152
 2 < CF-Cache-Status: HIT
-2 < CF-RAY: 58fc12b13bf4e63c-LHR
-2 < Cache-Control: max-age=14400
+2 < CF-RAY: 5b49b5316d690ffe-MRS
+2 < Cache-Control: max-age=43200
 2 < Connection: keep-alive
 2 < Content-Type: application/json; charset=utf-8
-2 < Date: Thu, 07 May 2020 15:46:18 GMT
+2 < Date: Sat, 18 Jul 2020 05:12:27 GMT
 2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 2 < Expires: -1
@@ -720,7 +771,10 @@
 2 < Via: 1.1 vegur
 2 < X-Content-Type-Options: nosniff
 2 < X-Powered-By: Express
-2 < cf-request-id: 02916a02c50000e63c14035200000001
+2 < X-Ratelimit-Limit: 10
+2 < X-Ratelimit-Remaining: 9
+2 < X-Ratelimit-Reset: 1593870645
+2 < cf-request-id: 0401ef92df00000ffe280b0200000001
 {
   "id": 1,
   "name": "Leanne Graham",
@@ -745,8 +799,8 @@
   }
 }
 
-21:16:18.008 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:18.024 [main] DEBUG com.intuit.karate - request:
+10:42:28.962 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:28.974 [main] DEBUG com.intuit.karate - request:
 1 > POST https://jsonplaceholder.typicode.com/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -756,29 +810,32 @@
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
 
-21:16:20.766 [main] DEBUG com.intuit.karate - response time in milliseconds: 2737.00
+10:42:29.542 [main] DEBUG com.intuit.karate - response time in milliseconds: 568.12
 1 < 201
 1 < Access-Control-Allow-Credentials: true
 1 < Access-Control-Expose-Headers: Location
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 58fc12b46eecdc43-LHR
+1 < CF-RAY: 5b49b5339a57e924-MRS
 1 < Cache-Control: no-cache
 1 < Connection: keep-alive
 1 < Content-Length: 216
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:21 GMT
+1 < Date: Sat, 18 Jul 2020 05:12:27 GMT
 1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Expires: -1
 1 < Location: http://jsonplaceholder.typicode.com/users/11
 1 < Pragma: no-cache
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d9171d6a8e9bd7b5460289622c55fc63f1588866378; expires=Sat, 06-Jun-20 15:46:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Set-Cookie: __cfduid=d9bddbdf2c34343bc576da9623f078d071595049147; expires=Mon, 17-Aug-20 05:12:27 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Content-Type-Options: nosniff
 1 < X-Powered-By: Express
-1 < cf-request-id: 02916a04c40000dc43b11bd200000001
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401ef94400000e92401b90200000001
 {
   "name": "Test User",
   "username": "testuser",
@@ -792,4 +849,1233 @@
   "id": 11
 }
 
-21:16:20.781 [main] INFO  com.intuit.karate - [print] created id is:  11
+10:42:29.558 [main] INFO  com.intuit.karate - [print] created id is:  11
+10:42:29.570 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:29.578 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:30.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 578.46
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5b49b5376a43100a-MRS
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:28 GMT
+1 < Etag: W/"1ff-2iureAUIawGXrTsK9ruBm43T5to"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da2f1c2010182e14784950d738302ceef1595049148; expires=Mon, 17-Aug-20 05:12:28 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1595006308
+1 < cf-request-id: 0401ef96a00000100adea48200000001
+{
+  "id": 10,
+  "name": "Clementina DuBuque",
+  "username": "Moriah.Stanton",
+  "email": "Rey.Padberg@karina.biz",
+  "address": {
+    "street": "Kattie Turnpike",
+    "suite": "Suite 198",
+    "city": "Lebsackbury",
+    "zipcode": "31428-2261",
+    "geo": {
+      "lat": "-38.2386",
+      "lng": "57.2232"
+    }
+  },
+  "phone": "024-648-3804",
+  "website": "ambrose.net",
+  "company": {
+    "name": "Hoeger LLC",
+    "catchPhrase": "Centralized empowering task-force",
+    "bs": "target end-to-end models"
+  }
+}
+
+10:42:30.206 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:30.222 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"id":1,"title":"updating Resource using PUT"}
+
+10:42:31.050 [main] DEBUG com.intuit.karate - response time in milliseconds: 824.41
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b53babb5d77d-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:28 GMT
+1 < Etag: W/"37-nfobnNTsy49QtC6btD3FMHDQEC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddc21aa7bb9043cb7c2cc3e1419b213861595049148; expires=Mon, 17-Aug-20 05:12:28 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401ef99480000d77d9e8ef200000001
+{
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
+
+10:42:31.050 [main] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
+
+10:42:31.050 [main] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal
+10:42:31.162 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:31.166 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"id":1,"title":"updating Resource using patch"}
+
+10:42:33.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 2365.86
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b54b0f48100a-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:31 GMT
+1 < Etag: W/"f7-/59QfOa6r5bFgo6Fmub51FfQpJM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df8377dcc86bb593feb9693fdad1781c01595049151; expires=Mon, 17-Aug-20 05:12:31 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 996
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efa2e20000100aeba2e200000001
+{
+  "userId": 1,
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+10:42:33.535 [main] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "userId": 1
+}
+
+10:42:33.539 [main] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal
+10:42:33.635 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:33.639 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:34.252 [main] DEBUG com.intuit.karate - response time in milliseconds: 611.33
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b550cf75103f-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:32 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d24aff35b7409e33f89b465b21dcf8cee1595049152; expires=Mon, 17-Aug-20 05:12:32 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 995
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efa67e0000103f059b4200000001
+{}
+
+10:42:34.388 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:42:34.432 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:34.432 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - karate.env system property was:  
+10:42:34.432 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:34.440 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+1 > POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 216
+1 > Content-Type: text/xml; charset=UTF-8
+1 > Host: webservices.oorsprong.org
+1 > SOAPAction: CapitalCity
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+<Body>
+<CapitalCity xmlns="http://www.oorsprong.org/websamples.countryinfo">
+<sCountryISOCode>IN</sCountryISOCode>
+</CapitalCity>
+</Body>
+</Envelope>
+
+10:42:34.456 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 20.99
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:32 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+10:42:34.460 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+10:42:34.480 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:34.480 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:34.968 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 528.35
+1 < 200
+1 < Cache-Control: private, max-age=0
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:29 GMT
+1 < Server: Microsoft-IIS/8.5
+1 < Vary: Accept-Encoding
+1 < Web-Service: DataFlex 19.1
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+
+10:42:34.976 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+
+10:42:35.004 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - karate.env system property was:  
+10:42:35.008 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:35.040 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/users/soapSample.feature
+10:42:35.383 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 902.63
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 900
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 18 Jul 2020 05:12:33 GMT
+1 < Display: pub_site_to_orig_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: [PHPSESSID=a60e2f86c20f47c85fc99bb874c46ab0; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:32 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:32 UTC, ezoab_133674=mod34; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:32 UTC, active_template::133674=pub_site.1595049152; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:32 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/3; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, ezovuuidtime_133674=1595049153; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:33 UTC, ezovuuid_133674=0e264da3-1ff3-4136-50da-95ef5359ac12; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:33 GMT]
+1 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: pub_site_to_orig_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+
+10:42:35.391 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name "async" associated with an element type "script" must be followed by the ' = ' character.
+10:42:35.391 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] <script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+10:42:35.403 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:35.407 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"testSession","salary":"25000","age":"45"}
+
+10:42:35.995 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 987.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 900
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 18 Jul 2020 05:12:34 GMT
+1 < Display: pub_site_to_orig_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: [PHPSESSID=0451c3b2ab37cb162f30e0c9af47c680; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, active_template::133674=pub_site.1595049153; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:33 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/4; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:34 UTC, ezovuuidtime_133674=1595049154; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:34 UTC, ezovuuid_133674=42f344ea-64c6-42e7-7363-7fcac443336f; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:34 GMT]
+1 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: pub_site_to_orig_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+
+10:42:35.999 [ForkJoinPool-1-worker-0] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name "async" associated with an element type "script" must be followed by the ' = ' character.
+10:42:35.999 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] <script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+10:42:36.007 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - karate.env system property was:  
+10:42:36.019 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"testSession","salary":"25000","age":"45"}
+
+10:42:36.283 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 876.21
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 86
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:34 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=46a88502a30ad1e2a5efbd34a4910596; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":57}}
+
+10:42:36.287 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 57
+10:42:36.287 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > GET http://dummy.restapiexample.com/api/v1/employee/57
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: PHPSESSID=46a88502a30ad1e2a5efbd34a4910596
+2 > Host: dummy.restapiexample.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:36.907 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 886.79
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 86
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":31}}
+
+10:42:36.907 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] 31
+10:42:36.911 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+2 > GET http://dummy.restapiexample.com/api/v1/employee/31
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097
+2 > Host: dummy.restapiexample.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.119 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 829.39
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 < Cache-Control: no-store, no-cache, must-revalidate
+2 < Content-Length: 113
+2 < Content-Type: application/json;charset=utf-8
+2 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+2 < Display: staticcontent_sol
+2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Pragma: no-cache
+2 < Response: 200
+2 < Server: nginx/1.16.0
+2 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Sol: pub_site
+{"status":"success","data":{"employee_name":"testSession","employee_salary":"25000","employee_age":"45","id":57}}
+
+10:42:37.119 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "employee_name": "testSession",
+    "employee_salary": "25000",
+    "id": 57,
+    "employee_age": "45"
+  },
+  "status": "success"
+}
+
+10:42:37.131 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:37.131 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.455 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 319.54
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 14490
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5b49b566ae510ff2-MRS
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d901edaaba3582020ee43df48ce386ef71595049155; expires=Mon, 17-Aug-20 05:12:35 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1594345410
+1 < cf-request-id: 0401efb42500000ff28d2c7200000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+10:42:37.463 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d901edaaba3582020ee43df48ce386ef71595049155
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.703 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 792.05
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 < Cache-Control: no-store, no-cache, must-revalidate
+2 < Content-Length: 113
+2 < Content-Type: application/json;charset=utf-8
+2 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+2 < Display: staticcontent_sol
+2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Pragma: no-cache
+2 < Response: 200
+2 < Server: nginx/1.16.0
+2 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Sol: pub_site
+{"status":"success","data":{"employee_name":"testSession","employee_salary":"25000","employee_age":"45","id":31}}
+
+10:42:37.703 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] {
+  "data": {
+    "employee_name": "testSession",
+    "employee_salary": "25000",
+    "id": 31,
+    "employee_age": "45"
+  },
+  "status": "success"
+}
+
+10:42:37.707 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - karate.env system property was:  
+10:42:37.715 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+10:42:37.755 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 3: classpath:examples/users/employee.feature
+10:42:37.863 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 397.21
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 1161
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5b49b56938f7101e-MRS
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sat, 18 Jul 2020 05:12:36 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < Pragma: no-cache
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 10
+2 < X-Ratelimit-Remaining: 9
+2 < X-Ratelimit-Reset: 1593870645
+2 < cf-request-id: 0401efb5c10000101e79185200000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+10:42:37.867 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:37.871 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:38.187 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 313.69
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 8
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5b49b56b3e891047-MRS
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 < Etag: W/"1ff-2iureAUIawGXrTsK9ruBm43T5to"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddc898283ed45dee5d11f869e1b3b19511595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1595006308
+1 < cf-request-id: 0401efb700000010476b11e200000001
+{
+  "id": 10,
+  "name": "Clementina DuBuque",
+  "username": "Moriah.Stanton",
+  "email": "Rey.Padberg@karina.biz",
+  "address": {
+    "street": "Kattie Turnpike",
+    "suite": "Suite 198",
+    "city": "Lebsackbury",
+    "zipcode": "31428-2261",
+    "geo": {
+      "lat": "-38.2386",
+      "lng": "57.2232"
+    }
+  },
+  "phone": "024-648-3804",
+  "website": "ambrose.net",
+  "company": {
+    "name": "Hoeger LLC",
+    "catchPhrase": "Centralized empowering task-force",
+    "bs": "target end-to-end models"
+  }
+}
+
+10:42:38.191 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:38.195 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > PUT https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"id":1,"title":"updating Resource using PUT"}
+
+10:42:38.255 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 542.10
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b56a3e73101a-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d21bfbb6d232595a733ccbefe1bafb99b1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 994
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efb6670000101a44062200000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+10:42:38.259 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] created id is:  11
+10:42:38.267 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - karate.env system property was:  
+10:42:38.271 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - request:
+1 > PATCH https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"id":1,"title":"updating Resource using patch"}
+
+10:42:38.863 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 665.63
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b56d5f3c100a-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 < Etag: W/"37-nfobnNTsy49QtC6btD3FMHDQEC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddea1055aa560fa155263111245ee43fb1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 993
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efb8560000100ae8bf4200000001
+{
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
+
+10:42:38.863 [ForkJoinPool-1-worker-0] DEBUG com.intuit.karate - response time in milliseconds: 587.64
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b56dfbc6e938-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 < Etag: W/"f7-/59QfOa6r5bFgo6Fmub51FfQpJM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4ca25cec5ad13139d7710e832b1e3b1d1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 992
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efb8b90000e938851e4200000001
+{
+  "userId": 1,
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+10:42:38.863 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
+
+10:42:38.863 [ForkJoinPool-1-worker-0] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "userId": 1
+}
+
+10:42:38.867 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal
+10:42:38.867 [ForkJoinPool-1-worker-0] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal
+10:42:38.875 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+10:42:38.883 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > DELETE https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:39.474 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 591.91
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b571ab750fda-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db579f8ca879f2abb9931946b861b518c1595049157; expires=Mon, 17-Aug-20 05:12:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 991
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efbb0400000fda681eb200000001
+{}
+
+10:42:39.514 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: classpath:examples/users/users.feature

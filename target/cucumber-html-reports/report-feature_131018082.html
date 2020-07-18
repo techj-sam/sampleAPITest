@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Feature: examples/users/employee.feature</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>demo</td>
+            <td>18 Jul 2020, 10:42</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">examples/users/employee.feature</td>
+          <td      class="passed"    >35</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">35</td>
+
+          <td  class="passed"    >5</td>
+          <td >0</td>
+          <td class="total">5</td>
+
+          <td class="duration" data-value="5346101888">5.346</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">examples/users/employee.feature</span>
+  
+
+  </div>
+
+        <div class="description indention">sample karate session scenario
+for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
+
+        <div class="elements inner-level">
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseURL</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>10:42:34.432 karate.env system property was:</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.033</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">User should be able to get list of employees</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-4" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-5" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;api/v1/employees&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">0.024</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>10:42:34.432 request:
+1 &gt; GET http://dummy.restapiexample.com/api/v1/employees
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:34.456 response time in milliseconds: 20.99
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 &lt; Cache-Control: max-age=31536000
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Date: Sat, 18 Jul 2020 05:12:32 GMT
+1 &lt; Display: staticcontent_sol
+1 &lt; Referrer-Policy: 
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.16.0
+1 &lt; Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+1 &lt; X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 &lt; X-Middleton-Display: staticcontent_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:&quot;1&quot;,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:&quot;320800&quot;,&quot;employee_age&quot;:&quot;61&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:&quot;170750&quot;,&quot;employee_age&quot;:&quot;63&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:&quot;86000&quot;,&quot;employee_age&quot;:&quot;66&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:&quot;433060&quot;,&quot;employee_age&quot;:&quot;22&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:&quot;162700&quot;,&quot;employee_age&quot;:&quot;33&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:&quot;372000&quot;,&quot;employee_age&quot;:&quot;61&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:&quot;137500&quot;,&quot;employee_age&quot;:&quot;59&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:&quot;327900&quot;,&quot;employee_age&quot;:&quot;55&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;9&quot;,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:&quot;205500&quot;,&quot;employee_age&quot;:&quot;39&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;10&quot;,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:&quot;103600&quot;,&quot;employee_age&quot;:&quot;23&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;11&quot;,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:&quot;90560&quot;,&quot;employee_age&quot;:&quot;30&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;12&quot;,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:&quot;342000&quot;,&quot;employee_age&quot;:&quot;22&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;13&quot;,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:&quot;470600&quot;,&quot;employee_age&quot;:&quot;36&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;14&quot;,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:&quot;313500&quot;,&quot;employee_age&quot;:&quot;43&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;15&quot;,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:&quot;385750&quot;,&quot;employee_age&quot;:&quot;19&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;16&quot;,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:&quot;198500&quot;,&quot;employee_age&quot;:&quot;66&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;17&quot;,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:&quot;725000&quot;,&quot;employee_age&quot;:&quot;64&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;18&quot;,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:&quot;237500&quot;,&quot;employee_age&quot;:&quot;59&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;19&quot;,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:&quot;132000&quot;,&quot;employee_age&quot;:&quot;41&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;20&quot;,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:&quot;217500&quot;,&quot;employee_age&quot;:&quot;35&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;21&quot;,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:&quot;345000&quot;,&quot;employee_age&quot;:&quot;30&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;22&quot;,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:&quot;675000&quot;,&quot;employee_age&quot;:&quot;40&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;23&quot;,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:&quot;106450&quot;,&quot;employee_age&quot;:&quot;21&quot;,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:&quot;24&quot;,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:&quot;85600&quot;,&quot;employee_age&quot;:&quot;23&quot;,&quot;profile_image&quot;:&quot;&quot;}]}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.003</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>10:42:34.464 [print] {
+  &quot;data&quot;: [
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+      &quot;employee_salary&quot;: &quot;320800&quot;,
+      &quot;id&quot;: &quot;1&quot;,
+      &quot;employee_age&quot;: &quot;61&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+      &quot;employee_salary&quot;: &quot;170750&quot;,
+      &quot;id&quot;: &quot;2&quot;,
+      &quot;employee_age&quot;: &quot;63&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+      &quot;employee_salary&quot;: &quot;86000&quot;,
+      &quot;id&quot;: &quot;3&quot;,
+      &quot;employee_age&quot;: &quot;66&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+      &quot;employee_salary&quot;: &quot;433060&quot;,
+      &quot;id&quot;: &quot;4&quot;,
+      &quot;employee_age&quot;: &quot;22&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+      &quot;employee_salary&quot;: &quot;162700&quot;,
+      &quot;id&quot;: &quot;5&quot;,
+      &quot;employee_age&quot;: &quot;33&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+      &quot;employee_salary&quot;: &quot;372000&quot;,
+      &quot;id&quot;: &quot;6&quot;,
+      &quot;employee_age&quot;: &quot;61&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+      &quot;employee_salary&quot;: &quot;137500&quot;,
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;employee_age&quot;: &quot;59&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+      &quot;employee_salary&quot;: &quot;327900&quot;,
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;employee_age&quot;: &quot;55&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+      &quot;employee_salary&quot;: &quot;205500&quot;,
+      &quot;id&quot;: &quot;9&quot;,
+      &quot;employee_age&quot;: &quot;39&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+      &quot;employee_salary&quot;: &quot;103600&quot;,
+      &quot;id&quot;: &quot;10&quot;,
+      &quot;employee_age&quot;: &quot;23&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+      &quot;employee_salary&quot;: &quot;90560&quot;,
+      &quot;id&quot;: &quot;11&quot;,
+      &quot;employee_age&quot;: &quot;30&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+      &quot;employee_salary&quot;: &quot;342000&quot;,
+      &quot;id&quot;: &quot;12&quot;,
+      &quot;employee_age&quot;: &quot;22&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+      &quot;employee_salary&quot;: &quot;470600&quot;,
+      &quot;id&quot;: &quot;13&quot;,
+      &quot;employee_age&quot;: &quot;36&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+      &quot;employee_salary&quot;: &quot;313500&quot;,
+      &quot;id&quot;: &quot;14&quot;,
+      &quot;employee_age&quot;: &quot;43&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+      &quot;employee_salary&quot;: &quot;385750&quot;,
+      &quot;id&quot;: &quot;15&quot;,
+      &quot;employee_age&quot;: &quot;19&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+      &quot;employee_salary&quot;: &quot;198500&quot;,
+      &quot;id&quot;: &quot;16&quot;,
+      &quot;employee_age&quot;: &quot;66&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+      &quot;employee_salary&quot;: &quot;725000&quot;,
+      &quot;id&quot;: &quot;17&quot;,
+      &quot;employee_age&quot;: &quot;64&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+      &quot;employee_salary&quot;: &quot;237500&quot;,
+      &quot;id&quot;: &quot;18&quot;,
+      &quot;employee_age&quot;: &quot;59&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+      &quot;employee_salary&quot;: &quot;132000&quot;,
+      &quot;id&quot;: &quot;19&quot;,
+      &quot;employee_age&quot;: &quot;41&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+      &quot;employee_salary&quot;: &quot;217500&quot;,
+      &quot;id&quot;: &quot;20&quot;,
+      &quot;employee_age&quot;: &quot;35&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+      &quot;employee_salary&quot;: &quot;345000&quot;,
+      &quot;id&quot;: &quot;21&quot;,
+      &quot;employee_age&quot;: &quot;30&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+      &quot;employee_salary&quot;: &quot;675000&quot;,
+      &quot;id&quot;: &quot;22&quot;,
+      &quot;employee_age&quot;: &quot;40&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+      &quot;employee_salary&quot;: &quot;106450&quot;,
+      &quot;id&quot;: &quot;23&quot;,
+      &quot;employee_age&quot;: &quot;21&quot;
+    },
+    {
+      &quot;profile_image&quot;: &quot;&quot;,
+      &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+      &quot;employee_salary&quot;: &quot;85600&quot;,
+      &quot;id&quot;: &quot;24&quot;,
+      &quot;employee_age&quot;: &quot;23&quot;
+    }
+  ],
+  &quot;status&quot;: &quot;success&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-8" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-9" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseURL</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>10:42:34.480 karate.env system property was:</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.912</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">User should be able to get details of specific employee</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-11" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-12" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;api/v1/employee/&quot;+&quot;3&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">0.911</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>10:42:34.480 request:
+1 &gt; GET http://dummy.restapiexample.com/api/v1/employee/3
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:35.387 response time in milliseconds: 902.63
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 &lt; Cache-Control: no-store, no-cache, must-revalidate
+1 &lt; Content-Length: 900
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Date: Sat, 18 Jul 2020 05:12:33 GMT
+1 &lt; Display: pub_site_to_orig_sol
+1 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 &lt; Pagespeed: off
+1 &lt; Pragma: no-cache
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.16.0
+1 &lt; Set-Cookie: [PHPSESSID=a60e2f86c20f47c85fc99bb874c46ab0; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:32 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:32 UTC, ezoab_133674=mod34; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:32 UTC, active_template::133674=pub_site.1595049152; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:32 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/3; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, ezovuuidtime_133674=1595049153; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:33 UTC, ezovuuid_133674=0e264da3-1ff3-4136-50da-95ef5359ac12; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:33 GMT]
+1 &lt; Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+1 &lt; X-Ezoic-Cdn: Miss
+1 &lt; X-Middleton-Display: pub_site_to_orig_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+&lt;script type='text/javascript' style='display:none;' async&gt;
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&amp;cb=3&amp;shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&amp;cb=3&amp;shcb=33', false, [], true, false, false, false);
+&lt;/script&gt;
+
+&lt;script&gt;var _audins_dom=&quot;restapiexample_com&quot;,_audins_did=133674;__ez.queue.addDelayFunc(&quot;audins.js&quot;,&quot;__ez.script.add&quot;, &quot;//go.ezoic.net/detroitchicago/audins.js?cb=188-3&quot;);&lt;/script&gt;&lt;noscript&gt;&lt;div style=&quot;display:none;&quot;&gt;&lt;img src=&quot;//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674&quot; border=&quot;0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;Quantcast&quot;/&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;noscript&gt;&lt;img src=&quot;https://sb.scorecardresearch.com/p?c1=2&amp;c2=20015427&amp;cv=2.0&amp;cj=1&quot;/&gt;&lt;/noscript&gt;
+&lt;script type='text/javascript' data-cfasync='false'&gt;&lt;/script&gt;
+
+10:42:35.391 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name &quot;async&quot; associated with an element type &quot;script&quot; must be followed by the ' = ' character.</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>10:42:35.391 [print] &lt;script type='text/javascript' style='display:none;' async&gt;
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&amp;cb=3&amp;shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&amp;cb=3&amp;shcb=33', false, [], true, false, false, false);
+&lt;/script&gt;
+
+&lt;script&gt;var _audins_dom=&quot;restapiexample_com&quot;,_audins_did=133674;__ez.queue.addDelayFunc(&quot;audins.js&quot;,&quot;__ez.script.add&quot;, &quot;//go.ezoic.net/detroitchicago/audins.js?cb=188-3&quot;);&lt;/script&gt;&lt;noscript&gt;&lt;div style=&quot;display:none;&quot;&gt;&lt;img src=&quot;//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674&quot; border=&quot;0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;Quantcast&quot;/&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;noscript&gt;&lt;img src=&quot;https://sb.scorecardresearch.com/p?c1=2&amp;c2=20015427&amp;cv=2.0&amp;cj=1&quot;/&gt;&lt;/noscript&gt;
+&lt;script type='text/javascript' data-cfasync='false'&gt;&lt;/script&gt;</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-15" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-16" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseURL</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>10:42:35.004 karate.env system property was:</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.994</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">User should be able to get details of specific employee</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-18" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-19" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;api/v1/employee/&quot;+&quot;4&quot;</span>
+  
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">0.993</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details">
+        <pre>10:42:35.008 request:
+1 &gt; GET http://dummy.restapiexample.com/api/v1/employee/4
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:35.995 response time in milliseconds: 987.68
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 &lt; Cache-Control: no-store, no-cache, must-revalidate
+1 &lt; Content-Length: 900
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Date: Sat, 18 Jul 2020 05:12:34 GMT
+1 &lt; Display: pub_site_to_orig_sol
+1 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 &lt; Pagespeed: off
+1 &lt; Pragma: no-cache
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.16.0
+1 &lt; Set-Cookie: [PHPSESSID=0451c3b2ab37cb162f30e0c9af47c680; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, active_template::133674=pub_site.1595049153; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:33 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/4; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:34 UTC, ezovuuidtime_133674=1595049154; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:34 UTC, ezovuuid_133674=42f344ea-64c6-42e7-7363-7fcac443336f; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:34 GMT]
+1 &lt; Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+1 &lt; X-Ezoic-Cdn: Miss
+1 &lt; X-Middleton-Display: pub_site_to_orig_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+&lt;script type='text/javascript' style='display:none;' async&gt;
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&amp;cb=3&amp;shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&amp;cb=3&amp;shcb=33', false, [], true, false, false, false);
+&lt;/script&gt;
+
+&lt;script&gt;var _audins_dom=&quot;restapiexample_com&quot;,_audins_did=133674;__ez.queue.addDelayFunc(&quot;audins.js&quot;,&quot;__ez.script.add&quot;, &quot;//go.ezoic.net/detroitchicago/audins.js?cb=188-3&quot;);&lt;/script&gt;&lt;noscript&gt;&lt;div style=&quot;display:none;&quot;&gt;&lt;img src=&quot;//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674&quot; border=&quot;0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;Quantcast&quot;/&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;noscript&gt;&lt;img src=&quot;https://sb.scorecardresearch.com/p?c1=2&amp;c2=20015427&amp;cv=2.0&amp;cj=1&quot;/&gt;&lt;/noscript&gt;
+&lt;script type='text/javascript' data-cfasync='false'&gt;&lt;/script&gt;
+
+10:42:35.999 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name &quot;async&quot; associated with an element type &quot;script&quot; must be followed by the ' = ' character.</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>10:42:35.999 [print] &lt;script type='text/javascript' style='display:none;' async&gt;
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&amp;cb=3&amp;shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&amp;cb=3&amp;shcb=33', false, [], true, false, false, false);
+&lt;/script&gt;
+
+&lt;script&gt;var _audins_dom=&quot;restapiexample_com&quot;,_audins_did=133674;__ez.queue.addDelayFunc(&quot;audins.js&quot;,&quot;__ez.script.add&quot;, &quot;//go.ezoic.net/detroitchicago/audins.js?cb=188-3&quot;);&lt;/script&gt;&lt;noscript&gt;&lt;div style=&quot;display:none;&quot;&gt;&lt;img src=&quot;//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674&quot; border=&quot;0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;Quantcast&quot;/&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;noscript&gt;&lt;img src=&quot;https://sb.scorecardresearch.com/p?c1=2&amp;c2=20015427&amp;cv=2.0&amp;cj=1&quot;/&gt;&lt;/noscript&gt;
+&lt;script type='text/javascript' data-cfasync='false'&gt;&lt;/script&gt;</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-22" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseURL</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details">
+        <pre>10:42:35.403 karate.env system property was:</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1.713</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">User should be able to create a new employee</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-25" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-26" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;api/v1/create&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request {&quot;name&quot;:&quot;testSession&quot;,&quot;salary&quot;:&quot;25000&quot;,&quot;age&quot;:&quot;45&quot;}</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">0.878</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-27" class="collapse collapsable-details">
+        <pre>10:42:35.407 request:
+1 &gt; POST http://dummy.restapiexample.com/api/v1/create
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 50
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{&quot;name&quot;:&quot;testSession&quot;,&quot;salary&quot;:&quot;25000&quot;,&quot;age&quot;:&quot;45&quot;}
+
+10:42:36.283 response time in milliseconds: 876.21
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 &lt; Cache-Control: no-store, no-cache, must-revalidate
+1 &lt; Content-Length: 86
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Date: Sat, 18 Jul 2020 05:12:34 GMT
+1 &lt; Display: staticcontent_sol
+1 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 &lt; Pragma: no-cache
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.16.0
+1 &lt; Set-Cookie: PHPSESSID=46a88502a30ad1e2a5efbd34a4910596; path=/
+1 &lt; Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 &lt; X-Ezoic-Cdn: Miss
+1 &lt; X-Middleton-Display: staticcontent_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:{&quot;name&quot;:&quot;testSession&quot;,&quot;salary&quot;:&quot;25000&quot;,&quot;age&quot;:&quot;45&quot;,&quot;id&quot;:57}}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response.data.id</span>
+  
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-28">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-28" class="collapse collapsable-details">
+        <pre>10:42:36.287 [print] 57</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path &quot;api/v1/employee/&quot;+response.data.id</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">0.831</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details">
+        <pre>10:42:36.287 request:
+2 &gt; GET http://dummy.restapiexample.com/api/v1/employee/57
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Cookie: PHPSESSID=46a88502a30ad1e2a5efbd34a4910596
+2 &gt; Host: dummy.restapiexample.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.119 response time in milliseconds: 829.39
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 &lt; Cache-Control: no-store, no-cache, must-revalidate
+2 &lt; Content-Length: 113
+2 &lt; Content-Type: application/json;charset=utf-8
+2 &lt; Date: Sat, 18 Jul 2020 05:12:35 GMT
+2 &lt; Display: staticcontent_sol
+2 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 &lt; Pragma: no-cache
+2 &lt; Response: 200
+2 &lt; Server: nginx/1.16.0
+2 &lt; Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 &lt; X-Ezoic-Cdn: Miss
+2 &lt; X-Middleton-Display: staticcontent_sol
+2 &lt; X-Middleton-Response: 200
+2 &lt; X-Sol: pub_site
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:{&quot;employee_name&quot;:&quot;testSession&quot;,&quot;employee_salary&quot;:&quot;25000&quot;,&quot;employee_age&quot;:&quot;45&quot;,&quot;id&quot;:57}}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>10:42:37.119 [print] {
+  &quot;data&quot;: {
+    &quot;employee_name&quot;: &quot;testSession&quot;,
+    &quot;employee_salary&quot;: &quot;25000&quot;,
+    &quot;id&quot;: 57,
+    &quot;employee_age&quot;: &quot;45&quot;
+  },
+  &quot;status&quot;: &quot;success&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">0.000</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-31" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-32" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseURL</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details">
+        <pre>10:42:36.011 karate.env system property was:</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1.692</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">User should be able to create a new employee</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-34" class="collapse collapsable-details ">
+    
+
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-35" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;api/v1/create&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request read ('classpath:testData/employee.json')</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">0.890</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>10:42:36.019 request:
+1 &gt; POST http://dummy.restapiexample.com/api/v1/create
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 50
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{&quot;name&quot;:&quot;testSession&quot;,&quot;salary&quot;:&quot;25000&quot;,&quot;age&quot;:&quot;45&quot;}
+
+10:42:36.907 response time in milliseconds: 886.79
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 &lt; Cache-Control: no-store, no-cache, must-revalidate
+1 &lt; Content-Length: 86
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Date: Sat, 18 Jul 2020 05:12:35 GMT
+1 &lt; Display: staticcontent_sol
+1 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 &lt; Pragma: no-cache
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.16.0
+1 &lt; Set-Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097; path=/
+1 &lt; Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 &lt; X-Ezoic-Cdn: Miss
+1 &lt; X-Middleton-Display: staticcontent_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:{&quot;name&quot;:&quot;testSession&quot;,&quot;salary&quot;:&quot;25000&quot;,&quot;age&quot;:&quot;45&quot;,&quot;id&quot;:31}}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response.data.id</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-37" class="collapse collapsable-details">
+        <pre>10:42:36.907 [print] 31</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path &quot;api/v1/employee/&quot;+response.data.id</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">0.794</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-38" class="collapse collapsable-details">
+        <pre>10:42:36.911 request:
+2 &gt; GET http://dummy.restapiexample.com/api/v1/employee/31
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097
+2 &gt; Host: dummy.restapiexample.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.703 response time in milliseconds: 792.05
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 &lt; Cache-Control: no-store, no-cache, must-revalidate
+2 &lt; Content-Length: 113
+2 &lt; Content-Type: application/json;charset=utf-8
+2 &lt; Date: Sat, 18 Jul 2020 05:12:35 GMT
+2 &lt; Display: staticcontent_sol
+2 &lt; Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 &lt; Pragma: no-cache
+2 &lt; Response: 200
+2 &lt; Server: nginx/1.16.0
+2 &lt; Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 &lt; X-Ezoic-Cdn: Miss
+2 &lt; X-Middleton-Display: staticcontent_sol
+2 &lt; X-Middleton-Response: 200
+2 &lt; X-Sol: pub_site
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:{&quot;employee_name&quot;:&quot;testSession&quot;,&quot;employee_salary&quot;:&quot;25000&quot;,&quot;employee_age&quot;:&quot;45&quot;,&quot;id&quot;:31}}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-39" class="collapse collapsable-details">
+        <pre>10:42:37.703 [print] {
+  &quot;data&quot;: {
+    &quot;employee_name&quot;: &quot;testSession&quot;,
+    &quot;employee_salary&quot;: &quot;25000&quot;,
+    &quot;id&quot;: 31,
+    &quot;employee_age&quot;: &quot;45&quot;
+  },
+  &quot;status&quot;: &quot;success&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+
+  </div>
+</div>
+
+                  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

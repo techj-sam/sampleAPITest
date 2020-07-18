@@ -1,0 +1,262 @@
+10:42:34.432 karate.env system property was:  
+10:42:34.440 request:
+1 > POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 216
+1 > Content-Type: text/xml; charset=UTF-8
+1 > Host: webservices.oorsprong.org
+1 > SOAPAction: CapitalCity
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+<Body>
+<CapitalCity xmlns="http://www.oorsprong.org/websamples.countryinfo">
+<sCountryISOCode>IN</sCountryISOCode>
+</CapitalCity>
+</Body>
+</Envelope>
+
+10:42:34.968 response time in milliseconds: 528.35
+1 < 200
+1 < Cache-Control: private, max-age=0
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:29 GMT
+1 < Server: Microsoft-IIS/8.5
+1 < Vary: Accept-Encoding
+1 < Web-Service: DataFlex 19.1
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+
+10:42:34.976 [print] <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+
+10:42:35.004 karate.env system property was:  
+10:42:35.008 request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:35.995 response time in milliseconds: 987.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 900
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 18 Jul 2020 05:12:34 GMT
+1 < Display: pub_site_to_orig_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: [PHPSESSID=0451c3b2ab37cb162f30e0c9af47c680; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:33 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:33 UTC, active_template::133674=pub_site.1595049153; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:33 UTC, lp_133674=http://dummy.restapiexample.com/api/v1/employee/4; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 07:12:34 UTC, ezovuuidtime_133674=1595049154; Path=/; Domain=restapiexample.com; Expires=Mon, 20 Jul 2020 05:12:34 UTC, ezovuuid_133674=42f344ea-64c6-42e7-7363-7fcac443336f; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Sat, 18 Jul 2020 05:42:34 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 18 Jul 2021 05:12:34 GMT]
+1 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: pub_site_to_orig_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+
+10:42:35.999 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 59; Attribute name "async" associated with an element type "script" must be followed by the ' = ' character.
+10:42:35.999 [print] <script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'></script>
+10:42:36.011 karate.env system property was:  
+10:42:36.019 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"testSession","salary":"25000","age":"45"}
+
+10:42:36.907 response time in milliseconds: 886.79
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 86
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":31}}
+
+10:42:36.907 [print] 31
+10:42:36.911 request:
+2 > GET http://dummy.restapiexample.com/api/v1/employee/31
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: PHPSESSID=5a54efd28dd638215bc1112222876097
+2 > Host: dummy.restapiexample.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+
+10:42:37.703 response time in milliseconds: 792.05
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2 < Cache-Control: no-store, no-cache, must-revalidate
+2 < Content-Length: 113
+2 < Content-Type: application/json;charset=utf-8
+2 < Date: Sat, 18 Jul 2020 05:12:35 GMT
+2 < Display: staticcontent_sol
+2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2 < Pragma: no-cache
+2 < Response: 200
+2 < Server: nginx/1.16.0
+2 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin,X-APP-JSON]
+2 < X-Ezoic-Cdn: Miss
+2 < X-Middleton-Display: staticcontent_sol
+2 < X-Middleton-Response: 200
+2 < X-Sol: pub_site
+{"status":"success","data":{"employee_name":"testSession","employee_salary":"25000","employee_age":"45","id":31}}
+
+10:42:37.703 [print] {
+  "data": {
+    "employee_name": "testSession",
+    "employee_salary": "25000",
+    "id": 31,
+    "employee_age": "45"
+  },
+  "status": "success"
+}
+
+10:42:37.711 karate.env system property was:  
+10:42:37.715 request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+10:42:38.255 response time in milliseconds: 542.10
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b56a3e73101a-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d21bfbb6d232595a733ccbefe1bafb99b1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 994
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efb6670000101a44062200000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+10:42:38.259 [print] created id is:  11
+10:42:38.267 karate.env system property was:  
+10:42:38.275 request:
+1 > PATCH https://jsonplaceholder.typicode.com/posts/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+{"id":1,"title":"updating Resource using patch"}
+
+10:42:38.863 response time in milliseconds: 587.64
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b56dfbc6e938-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 < Etag: W/"f7-/59QfOa6r5bFgo6Fmub51FfQpJM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4ca25cec5ad13139d7710e832b1e3b1d1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 992
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efb8b90000e938851e4200000001
+{
+  "userId": 1,
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+10:42:38.863 [print] {
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "userId": 1
+}
+
+10:42:38.867 assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal

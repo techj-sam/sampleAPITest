@@ -1,0 +1,12 @@
+<testsuite failures="0" name="examples/users/soapSample.feature" skipped="0" tests="1" time="0.549553">
+  <testcase classname="examples.users.soapSample" name="User should be able to get capital of the country" time="0.549553">
+    <system-out>* url "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL" . passed
+Given request ............................................................. passed
+And soap action 'CapitalCity' ............................................. passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed
+And match response contains '&lt;m:CapitalCityResult&gt;New Delhi&lt;/m:CapitalCityResult&gt;' . passed
+And match responseHeaders['Content-Type'][*] contains 'text/xml; charset=utf-8' . passed
+And assert responseTime &lt; 3000 ............................................ passed</system-out>
+  </testcase>
+</testsuite>

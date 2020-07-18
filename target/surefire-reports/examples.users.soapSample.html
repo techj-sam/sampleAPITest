@@ -172,12 +172,12 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">* url "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL"</div>
-<div class="time-cell passed">0.00289</div>
+<div class="time-cell passed">0.003455</div>
 </div>
-<div class="preformatted">21:16:15.360 karate.env system property was:</div>
+<div class="preformatted">10:42:27.158 karate.env system property was:</div>
 <div class="step-row">
 <div class="step-cell passed">Given request</div>
-<div class="time-cell passed">0.001818</div>
+<div class="time-cell passed">0.001469</div>
 </div>
 <div class="preformatted">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"&gt;
 &lt;Body&gt;
@@ -188,9 +188,9 @@
 &lt;/Envelope&gt;</div>
 <div class="step-row">
 <div class="step-cell passed">And soap action 'CapitalCity'</div>
-<div class="time-cell passed">0.874621</div>
+<div class="time-cell passed">0.538201</div>
 </div>
-<div class="preformatted">21:16:15.391 request:
+<div class="preformatted">10:42:27.170 request:
 1 &gt; POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -207,11 +207,11 @@
 &lt;/Body&gt;&#13;
 &lt;/Envelope&gt;
 
-21:16:16.251 response time in milliseconds: 862.89
+10:42:27.698 response time in milliseconds: 526.58
 1 &lt; 200
 1 &lt; Cache-Control: private, max-age=0
 1 &lt; Content-Type: text/xml; charset=utf-8
-1 &lt; Date: Thu, 07 May 2020 15:46:15 GMT
+1 &lt; Date: Sat, 18 Jul 2020 05:12:22 GMT
 1 &lt; Server: Microsoft-IIS/8.5
 1 &lt; Vary: Accept-Encoding
 1 &lt; Web-Service: DataFlex 19.1
@@ -229,9 +229,9 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">And print response</div>
-<div class="time-cell passed">0.003114</div>
+<div class="time-cell passed">0.003329</div>
 </div>
-<div class="preformatted">21:16:16.251 [print] &lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#13;
+<div class="preformatted">10:42:27.706 [print] &lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#13;
   &lt;soap:Body&gt;&#13;
     &lt;m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#13;
       &lt;m:CapitalCityResult&gt;New Delhi&lt;/m:CapitalCityResult&gt;&#13;
@@ -240,15 +240,15 @@
 &lt;/soap:Envelope&gt;</div>
 <div class="step-row">
 <div class="step-cell passed">And match response contains '&lt;m:CapitalCityResult&gt;New Delhi&lt;/m:CapitalCityResult&gt;'</div>
-<div class="time-cell passed">0.021206</div>
+<div class="time-cell passed">0.015973</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match responseHeaders['Content-Type'][*] contains 'text/xml; charset=utf-8'</div>
-<div class="time-cell passed">0.010462</div>
+<div class="time-cell passed">0.010266</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And assert responseTime &lt; 3000</div>
-<div class="time-cell passed">0.008797</div>
+<div class="time-cell passed">0.022147</div>
 </div>
 </div>
 </div>

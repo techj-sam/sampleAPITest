@@ -1,17 +1,13 @@
 package examples.users;
 
 import com.intuit.karate.junit5.Karate;
+import org.junit.jupiter.api.Test;
 
 class UsersRunner {
 
-    @Karate.Test
+   @Test
     Karate testUsers() {
         return Karate.run("users").relativeTo(getClass());
-    }
-
-    @Karate.Test
-    Karate testAll(){
-        return Karate.run().relativeTo(getClass());
     }
 
 //    @Karate.Test

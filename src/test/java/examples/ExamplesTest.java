@@ -29,8 +29,8 @@ class ExamplesTest {
 
     @Test
     void testruninParallel() {
-//       Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
-        Results results = Runner.path("classpath:examples").tags("~@ignore").parallel(2);
+       Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
+//        Results results = Runner.path("classpath:examples").tags("~@ignore").parallel(2);
         ExamplesTest.generateReport(results.getReportDir());
         if (results.getFailCount()!=0){
             System.out.println( results.getErrorMessages());

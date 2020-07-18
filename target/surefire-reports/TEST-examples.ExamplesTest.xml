@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="16.47" tests="8" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="22.582" tests="13" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire4695319526827309442\surefirebooter8721846986994978231.jar C:\Users\user\AppData\Local\Temp\surefire4695319526827309442 2020-05-07T21-16-03_010-jvmRun1 surefire1637261827833272027tmp surefire_03623288140735289622tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire8653522353366273811\surefirebooter3271994697682433598.jar C:\Users\user\AppData\Local\Temp\surefire8653522353366273811 2020-07-18T10-42-17_034-jvmRun1 surefire7985106840373664605tmp surefire_07092264794036056201tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\user\IdeaProjects\karateDemo\target\test-classes;C:\Users\user\IdeaProjects\karateDemo\target\classes;C:\Users\user\.m2\repository\com\intuit\karate\karate-apache\0.9.5\karate-apache-0.9.5.jar;C:\Users\user\.m2\repository\com\intuit\karate\karate-core\0.9.5\karate-core-0.9.5.jar;C:\Users\user\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\user\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\user\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\user\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\user\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\user\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.11\httpclient-4.5.11.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.11\httpmime-4.5.11.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\user\.m2\repository\com\intuit\karate\karate-junit5\0.9.5\karate-junit5-0.9.5.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\user\.m2\repository\net\masterthought\maven-cucumber-reporting\4.10.0\maven-cucumber-reporting-4.10.0.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-plugin-api\3.6.2\maven-plugin-api-3.6.2.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-model\3.6.2\maven-model-3.6.2.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-artifact\3.6.2\maven-artifact-3.6.2.jar;C:\Users\user\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar;C:\Users\user\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\user\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\user\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\user\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\user\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\user\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\user\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\user\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\user\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\user\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\user\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\user\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\user\.m2\repository\net\masterthought\cucumber-reporting\4.10.0\cucumber-reporting-4.10.0.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\user\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\user\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\user\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\user\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\user\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\user\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\user"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire4695319526827309442\surefirebooter8721846986994978231.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire8653522353366273811\surefirebooter3271994697682433598.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,250 +60,139 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAll[1][1]" classname="examples.ExamplesTest" time="3.673"/>
-  <testcase name="testAll[1][2]" classname="examples.ExamplesTest" time="1.093">
-    <failure message="employee.feature:17 - status code was: 400, expected: 200, response time: 1078, url: http://dummy.restapiexample.com/api/v1/employee/3, response: {&quot;message&quot;:&quot;Oops! someting issue found to fetch record.&quot;,&quot;status&quot;:&quot;failed&quot;}" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: employee.feature:17 - status code was: 400, expected: 200, response time: 1078, url: http://dummy.restapiexample.com/api/v1/employee/3, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
+  <testcase name="testAll[1][1]" classname="examples.ExamplesTest" time="1.7"/>
+  <testcase name="testAll[1][2]" classname="examples.ExamplesTest" time="0.905"/>
+  <testcase name="testAll[1][3]" classname="examples.ExamplesTest" time="1.02"/>
+  <testcase name="testAll[1][4]" classname="examples.ExamplesTest" time="2.241"/>
+  <testcase name="testAll[1][5]" classname="examples.ExamplesTest" time="1.936"/>
+  <testcase name="testAll[2][1]" classname="examples.ExamplesTest" time="0.692"/>
+  <testcase name="testAll[3][1]" classname="examples.ExamplesTest" time="1.164"/>
+  <testcase name="testAll[3][2]" classname="examples.ExamplesTest" time="0.6"/>
+  <testcase name="testAll[3][3]" classname="examples.ExamplesTest" time="0.652"/>
+  <testcase name="testAll[3][4]" classname="examples.ExamplesTest" time="0.896">
+    <failure message="users.feature:68 - path: $.title, actual: &apos;updating Resource using PUT&apos;, expected: &apos;updated Resource&apos;, reason: not equal" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal
 </failure>
-    <system-out><![CDATA[21:16:08.750 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:08.750 [main] DEBUG com.intuit.karate - request:
-1 > GET http://dummy.restapiexample.com/api/v1/employee/3
+    <system-out><![CDATA[10:42:30.206 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:30.222 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://jsonplaceholder.typicode.com/posts/1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Host: dummy.restapiexample.com
-1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
-
-21:16:09.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 1077.83
-1 < 400
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-cache
-1 < Content-Length: 75
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:10 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 400
-1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=b724f1e84714decea86ff8f18bdf1028; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:09 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:09 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:09 UTC, active_template::133674=pub_site.1588866369; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:09 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 400
-1 < X-Sol: pub_site
-{"status":"failed","message":"Oops! someting issue found to fetch record."}
-
-21:16:09.843 [main] ERROR com.intuit.karate - status code was: 400, expected: 200, response time: 1078, url: http://dummy.restapiexample.com/api/v1/employee/3, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
----------------------------------------------------------
-feature: classpath:examples/users/employee.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 4.2246
----------------------------------------------------------
-
-HTML report: (paste into browser to view) | Karate version: 0.9.5
-file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.employee.html
----------------------------------------------------------
-
-]]></system-out>
-  </testcase>
-  <testcase name="testAll[1][3]" classname="examples.ExamplesTest" time="1.126">
-    <failure message="employee.feature:17 - status code was: 400, expected: 200, response time: 1033, url: http://dummy.restapiexample.com/api/v1/employee/4, response: {&quot;message&quot;:&quot;Oops! someting issue found to fetch record.&quot;,&quot;status&quot;:&quot;failed&quot;}" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: employee.feature:17 - status code was: 400, expected: 200, response time: 1033, url: http://dummy.restapiexample.com/api/v1/employee/4, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
-</failure>
-    <system-out><![CDATA[21:16:10.062 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:10.062 [main] DEBUG com.intuit.karate - request:
-1 > GET http://dummy.restapiexample.com/api/v1/employee/4
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: dummy.restapiexample.com
-1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
-
-21:16:11.110 [main] DEBUG com.intuit.karate - response time in milliseconds: 1032.85
-1 < 400
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-cache
-1 < Content-Length: 75
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:11 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 400
-1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=2613afc8c03e553680c28bf509a16b48; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:10 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:10 UTC, ezoab_133674=mod94; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:10 UTC, active_template::133674=pub_site.1588866370; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:10 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 400
-1 < X-Sol: pub_site
-{"status":"failed","message":"Oops! someting issue found to fetch record."}
-
-21:16:11.110 [main] ERROR com.intuit.karate - status code was: 400, expected: 200, response time: 1033, url: http://dummy.restapiexample.com/api/v1/employee/4, response: {"message":"Oops! someting issue found to fetch record.","status":"failed"}
----------------------------------------------------------
-feature: classpath:examples/users/employee.feature
-scenarios:  5 | passed:  2 | failed:  3 | time: 9.4895
----------------------------------------------------------
-
-HTML report: (paste into browser to view) | Karate version: 0.9.5
-file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.employee.html
----------------------------------------------------------
-
-]]></system-out>
-  </testcase>
-  <testcase name="testAll[1][4]" classname="examples.ExamplesTest" time="2.094">
-    <failure message="employee.feature:34 - status code was: 401, expected: 200, response time: 921, url: http://dummy.restapiexample.com/api/v1/employee/35, response: {&quot;data&quot;:&quot;Record does not found.&quot;,&quot;status&quot;:&quot;failed&quot;}" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: employee.feature:34 - status code was: 401, expected: 200, response time: 921, url: http://dummy.restapiexample.com/api/v1/employee/35, response: {"data":"Record does not found.","status":"failed"}
-</failure>
-    <system-out><![CDATA[21:16:11.172 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:11.188 [main] DEBUG com.intuit.karate - request:
-1 > POST http://dummy.restapiexample.com/api/v1/create
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Content-Length: 50
+1 > Content-Length: 46
 1 > Content-Type: application/json; charset=UTF-8
-1 > Host: dummy.restapiexample.com
+1 > Host: jsonplaceholder.typicode.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
-{"name":"testSession","salary":"25000","age":"45"}
+{"id":1,"title":"updating Resource using PUT"}
 
-21:16:12.235 [main] DEBUG com.intuit.karate - response time in milliseconds: 1037.06
+10:42:31.050 [main] DEBUG com.intuit.karate - response time in milliseconds: 824.41
 1 < 200
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-store, no-cache, must-revalidate
-1 < Content-Length: 86
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:12 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b53babb5d77d-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:28 GMT
+1 < Etag: W/"37-nfobnNTsy49QtC6btD3FMHDQEC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
 1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 200
-1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=1b3ae2fa88b788066c0ae6655d09f7d0; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:11 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:11 UTC, ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:11 UTC, active_template::133674=pub_site.1588866371; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:11 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 200
-1 < X-Sol: pub_site
-{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":35}}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddc21aa7bb9043cb7c2cc3e1419b213861595049148; expires=Mon, 17-Aug-20 05:12:28 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401ef99480000d77d9e8ef200000001
+{
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
 
-21:16:12.266 [main] INFO  com.intuit.karate - [print] 35
-21:16:12.266 [main] DEBUG com.intuit.karate - request:
-2 > GET http://dummy.restapiexample.com/api/v1/employee/35
-2 > Accept-Encoding: gzip,deflate
-2 > Connection: Keep-Alive
-2 > Cookie: PHPSESSID=1b3ae2fa88b788066c0ae6655d09f7d0; active_template::133674=pub_site.1588866371; ezoab_133674=mod1; ezoadgid_133674=-1; ezoref_133674=
-2 > Host: dummy.restapiexample.com
-2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+10:42:31.050 [main] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using PUT"
+}
 
-21:16:13.188 [main] DEBUG com.intuit.karate - response time in milliseconds: 920.62
-2 < 401
-2 < Access-Control-Allow-Origin: *
-2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-2 < Cache-Control: no-cache
-2 < Content-Length: 51
-2 < Content-Type: application/json;charset=utf-8
-2 < Date: Thu, 07 May 2020 15:46:13 GMT
-2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-2 < Pragma: no-cache
-2 < Referrer-Policy: 
-2 < Response: 401
-2 < Server: nginx/1.16.0
-2 < Set-Cookie: [ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:13 UTC, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:13 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:13 UTC, active_template::133674=pub_site.1588866373; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:13 UTC]
-2 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
-2 < X-Ezoic-Cdn: Miss
-2 < X-Middleton-Response: 401
-2 < X-Sol: pub_site
-{"status":"failed","data":"Record does not found."}
-
-21:16:13.188 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 921, url: http://dummy.restapiexample.com/api/v1/employee/35, response: {"data":"Record does not found.","status":"failed"}
+10:42:31.050 [main] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal
 ---------------------------------------------------------
-feature: classpath:examples/users/employee.feature
-scenarios:  9 | passed:  3 | failed:  6 | time: 16.7728
+feature: classpath:examples/users/users.feature
+scenarios:  4 | passed:  3 | failed:  1 | time: 3.1187
 ---------------------------------------------------------
 
 HTML report: (paste into browser to view) | Karate version: 0.9.5
-file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.employee.html
+file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.users.html
 ---------------------------------------------------------
 
 ]]></system-out>
   </testcase>
-  <testcase name="testAll[1][5]" classname="examples.ExamplesTest" time="2.094">
-    <failure message="employee.feature:46 - status code was: 401, expected: 200, response time: 969, url: http://dummy.restapiexample.com/api/v1/employee/98, response: {&quot;data&quot;:&quot;Record does not found.&quot;,&quot;status&quot;:&quot;failed&quot;}" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: employee.feature:46 - status code was: 401, expected: 200, response time: 969, url: http://dummy.restapiexample.com/api/v1/employee/98, response: {"data":"Record does not found.","status":"failed"}
+  <testcase name="testAll[3][5]" classname="examples.ExamplesTest" time="2.485">
+    <failure message="users.feature:85 - path: $.title, actual: &apos;updating Resource using patch&apos;, expected: &apos;updated Resource using patch&apos;, reason: not equal" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal
 </failure>
-    <system-out><![CDATA[21:16:13.282 [main] INFO  com.intuit.karate - karate.env system property was:  
-21:16:13.297 [main] DEBUG com.intuit.karate - request:
-1 > POST http://dummy.restapiexample.com/api/v1/create
+    <system-out><![CDATA[10:42:31.162 [main] INFO  com.intuit.karate - karate.env system property was:  
+10:42:31.166 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://jsonplaceholder.typicode.com/posts/1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 50
+1 > Content-Length: 48
 1 > Content-Type: application/json; charset=UTF-8
-1 > Host: dummy.restapiexample.com
+1 > Host: jsonplaceholder.typicode.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
-{"name":"testSession","salary":"25000","age":"45"}
+{"id":1,"title":"updating Resource using patch"}
 
-21:16:14.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 994.76
+10:42:33.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 2365.86
 1 < 200
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-1 < Cache-Control: no-store, no-cache, must-revalidate
-1 < Content-Length: 86
-1 < Content-Type: application/json;charset=utf-8
-1 < Date: Thu, 07 May 2020 15:46:14 GMT
-1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b49b54b0f48100a-MRS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jul 2020 05:12:31 GMT
+1 < Etag: W/"f7-/59QfOa6r5bFgo6Fmub51FfQpJM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
 1 < Pragma: no-cache
-1 < Referrer-Policy: 
-1 < Response: 200
-1 < Server: nginx/1.16.0
-1 < Set-Cookie: [PHPSESSID=1bd27ef531239768336151c4b629e9c1; path=/, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:14 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:14 UTC, ezoab_133674=mod28-c; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:14 UTC, active_template::133674=pub_site.1588866374; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:14 UTC]
-1 < Vary: [Accept-Encoding, Accept-Encoding,X-APP-JSON]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Response: 200
-1 < X-Sol: pub_site
-{"status":"success","data":{"name":"testSession","salary":"25000","age":"45","id":98}}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df8377dcc86bb593feb9693fdad1781c01595049151; expires=Mon, 17-Aug-20 05:12:31 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 996
+1 < X-Ratelimit-Reset: 1595049192
+1 < cf-request-id: 0401efa2e20000100aeba2e200000001
+{
+  "userId": 1,
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
 
-21:16:14.282 [main] INFO  com.intuit.karate - [print] 98
-21:16:14.297 [main] DEBUG com.intuit.karate - request:
-2 > GET http://dummy.restapiexample.com/api/v1/employee/98
-2 > Accept-Encoding: gzip,deflate
-2 > Connection: Keep-Alive
-2 > Cookie: PHPSESSID=1bd27ef531239768336151c4b629e9c1; active_template::133674=pub_site.1588866374; ezoab_133674=mod28-c; ezoadgid_133674=-1; ezoref_133674=
-2 > Host: dummy.restapiexample.com
-2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
+10:42:33.535 [main] INFO  com.intuit.karate - [print] {
+  "id": 1,
+  "title": "updating Resource using patch",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "userId": 1
+}
 
-21:16:15.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 968.50
-2 < 401
-2 < Access-Control-Allow-Origin: *
-2 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
-2 < Cache-Control: no-cache
-2 < Content-Length: 51
-2 < Content-Type: application/json;charset=utf-8
-2 < Date: Thu, 07 May 2020 15:46:15 GMT
-2 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
-2 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-2 < Pragma: no-cache
-2 < Referrer-Policy: 
-2 < Response: 401
-2 < Server: nginx/1.16.0
-2 < Set-Cookie: [ezoab_133674=mod28-c; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:15 UTC, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 16:16:15 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 07 May 2020 17:46:15 UTC, active_template::133674=pub_site.1588866375; Path=/; Domain=restapiexample.com; Expires=Sat, 09 May 2020 15:46:15 UTC]
-2 < Vary: [Accept-Encoding, User-Agent,Accept-Encoding,X-APP-JSON]
-2 < X-Ezoic-Cdn: Miss
-2 < X-Middleton-Response: 401
-2 < X-Sol: pub_site
-{"status":"failed","data":"Record does not found."}
-
-21:16:15.266 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 969, url: http://dummy.restapiexample.com/api/v1/employee/98, response: {"data":"Record does not found.","status":"failed"}
+10:42:33.539 [main] ERROR com.intuit.karate - assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal
 ---------------------------------------------------------
-feature: classpath:examples/users/employee.feature
-scenarios: 14 | passed:  4 | failed: 10 | time: 26.0457
+feature: classpath:examples/users/users.feature
+scenarios:  9 | passed:  6 | failed:  3 | time: 8.6104
 ---------------------------------------------------------
 
 HTML report: (paste into browser to view) | Karate version: 0.9.5
-file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.employee.html
+file:/C:/Users/user/IdeaProjects/karateDemo/target/surefire-reports/examples.users.users.html
 ---------------------------------------------------------
 
 ]]></system-out>
   </testcase>
-  <testcase name="testAll[2][1]" classname="examples.ExamplesTest" time="0.984"/>
-  <testcase name="testAll[3][1]" classname="examples.ExamplesTest" time="1.696"/>
-  <testcase name="testAll[3][2]" classname="examples.ExamplesTest" time="2.804"/>
+  <testcase name="testAll[3][6]" classname="examples.ExamplesTest" time="0.725"/>
+  <testcase name="testruninParallel" classname="examples.ExamplesTest" time="6.689"/>
 </testsuite>
