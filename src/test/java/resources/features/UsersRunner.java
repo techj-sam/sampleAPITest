@@ -1,4 +1,4 @@
-package examples.users;
+package resources.features;
 
 import com.intuit.karate.junit5.Karate;
 import org.junit.jupiter.api.Test;

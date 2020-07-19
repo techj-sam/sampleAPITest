@@ -1,24 +1,12 @@
-<testsuite failures="0" name="examples/users/employee.feature" skipped="0" tests="5" time="5.346102">
-  <testcase classname="examples.users.employee" name="User should be able to get list of employees" time="0.033636">
+<testsuite failures="0" name="resources/features/employee.feature" skipped="0" tests="5" time="5.602013">
+  <testcase classname="resources.features.employee" name="User should be able to get list of employees" time="0.020268">
     <system-out>* url baseURL ............................................................. passed
 Given path "api/v1/employees" ............................................. passed
 And method GET ............................................................ passed
 And status 200 ............................................................ passed
 And print response ........................................................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.employee" name="User should be able to get details of specific employee" time="0.912352">
-    <system-out>* url baseURL ............................................................. passed
-Given path "api/v1/employees" ............................................. passed
-And method GET ............................................................ passed
-And status 200 ............................................................ passed
-And print response ........................................................ passed
-* url baseURL ............................................................. passed
-Given path "api/v1/employee/"+"3" ......................................... passed
-And method GET ............................................................ passed
-And status 200 ............................................................ passed
-And print response ........................................................ passed</system-out>
-  </testcase>
-  <testcase classname="examples.users.employee" name="User should be able to get details of specific employee" time="0.994912">
+  <testcase classname="resources.features.employee" name="User should be able to get details of specific employee" time="0.943126">
     <system-out>* url baseURL ............................................................. passed
 Given path "api/v1/employees" ............................................. passed
 And method GET ............................................................ passed
@@ -28,14 +16,9 @@ And print response ........................................................ pass
 Given path "api/v1/employee/"+"3" ......................................... passed
 And method GET ............................................................ passed
 And status 200 ............................................................ passed
-And print response ........................................................ passed
-* url baseURL ............................................................. passed
-Given path "api/v1/employee/"+"4" ......................................... passed
-And method GET ............................................................ passed
-And status 200 ............................................................ passed
 And print response ........................................................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.employee" name="User should be able to create a new employee" time="1.713079">
+  <testcase classname="resources.features.employee" name="User should be able to get details of specific employee" time="0.8303">
     <system-out>* url baseURL ............................................................. passed
 Given path "api/v1/employees" ............................................. passed
 And method GET ............................................................ passed
@@ -50,19 +33,9 @@ And print response ........................................................ pass
 Given path "api/v1/employee/"+"4" ......................................... passed
 And method GET ............................................................ passed
 And status 200 ............................................................ passed
-And print response ........................................................ passed
-* url baseURL ............................................................. passed
-Given path "api/v1/create" ................................................ passed
-And request {"name":"testSession","salary":"25000","age":"45"} ............ passed
-And method POST ........................................................... passed
-And status 200 ............................................................ passed
-And print response.data.id ................................................ passed
-And path "api/v1/employee/"+response.data.id .............................. passed
-And method GET ............................................................ passed
-And status 200 ............................................................ passed
 And print response ........................................................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.employee" name="User should be able to create a new employee" time="1.692123">
+  <testcase classname="resources.features.employee" name="User should be able to create a new employee" time="1.962851">
     <system-out>* url baseURL ............................................................. passed
 Given path "api/v1/employees" ............................................. passed
 And method GET ............................................................ passed
@@ -87,10 +60,37 @@ And print response.data.id ................................................ pass
 And path "api/v1/employee/"+response.data.id .............................. passed
 And method GET ............................................................ passed
 And status 200 ............................................................ passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="resources.features.employee" name="User should be able to create a new employee" time="1.845467">
+    <system-out>* url baseURL ............................................................. passed
+Given path "api/v1/employees" ............................................. passed
+And method GET ............................................................ passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed
+* url baseURL ............................................................. passed
+Given path "api/v1/employee/"+"3" ......................................... passed
+And method GET ............................................................ passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed
+* url baseURL ............................................................. passed
+Given path "api/v1/employee/"+"4" ......................................... passed
+And method GET ............................................................ passed
+And status 200 ............................................................ passed
 And print response ........................................................ passed
 * url baseURL ............................................................. passed
 Given path "api/v1/create" ................................................ passed
-And request read ('classpath:testData/employee.json') ..................... passed
+And request {"name":"testSession","salary":"25000","age":"45"} ............ passed
+And method POST ........................................................... passed
+And status 200 ............................................................ passed
+And print response.data.id ................................................ passed
+And path "api/v1/employee/"+response.data.id .............................. passed
+And method GET ............................................................ passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed
+* url baseURL ............................................................. passed
+Given path "api/v1/create" ................................................ passed
+And request read ('classpath:testData/employee_info.json') ................ passed
 And method POST ........................................................... passed
 And status 200 ............................................................ passed
 And print response.data.id ................................................ passed

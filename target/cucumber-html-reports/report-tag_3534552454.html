@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demo</td>
-            <td>18 Jul 2020, 10:42</td>
+            <td>19 Jul 2020, 10:59</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@PatchRequest</td>
-          <td      class="passed"    >7</td>
-          <td      class="failed"    >1</td>
+          <td      class="passed"    >8</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">8</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="594233250">0.594</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="583613278">0.583</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_2_2622058114.html">examples/users/users.feature</a>
+      <a href="report-feature_2_164959719.html">resources/features/users.feature</a>
     </div>
   
   
@@ -181,12 +181,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">0.594</span>
+  <span class="lead-duration duration">0.583</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User can update data using PATCH request</span>
   
@@ -197,16 +197,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -216,7 +216,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -344,7 +344,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method PATCH</span>
   
-  <span class="lead-duration duration">0.591</span>
+  <span class="lead-duration duration">0.576</span>
 
 </div>
 
@@ -362,7 +362,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details">
-        <pre>10:42:38.275 request:
+        <pre>10:59:20.185 request:
 1 &gt; PATCH https://jsonplaceholder.typicode.com/posts/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -372,30 +372,30 @@ $(document).ready(function() {
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {&quot;id&quot;:1,&quot;title&quot;:&quot;updating Resource using patch&quot;}
 
-10:42:38.863 response time in milliseconds: 587.64
+10:59:20.760 response time in milliseconds: 572.41
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5b49b56dfbc6e938-MRS
+1 &lt; CF-RAY: 5b520b41a849dc07-LHR
 1 &lt; Cache-Control: no-cache
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:18 GMT
 1 &lt; Etag: W/&quot;f7-/59QfOa6r5bFgo6Fmub51FfQpJM&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d4ca25cec5ad13139d7710e832b1e3b1d1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=d8577552215870ab46cafc5f3fd09a3e21595136558; expires=Tue, 18-Aug-20 05:29:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
 1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 992
-1 &lt; X-Ratelimit-Reset: 1595049192
-1 &lt; cf-request-id: 0401efb8b90000e938851e4200000001
+1 &lt; X-Ratelimit-Remaining: 993
+1 &lt; X-Ratelimit-Reset: 1595136560
+1 &lt; cf-request-id: 0407255d0a0000dc071f83a200000001
 {
   &quot;userId&quot;: 1,
   &quot;id&quot;: 1,
@@ -465,7 +465,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-5" class="collapse collapsable-details">
-        <pre>10:42:38.863 [print] {
+        <pre>10:59:20.762 [print] {
   &quot;id&quot;: 1,
   &quot;title&quot;: &quot;updating Resource using patch&quot;,
   &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;,
@@ -485,11 +485,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updated Resource using patch&quot;}</span>
+  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updating Resource using patch&quot;}</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -498,30 +498,9 @@ $(document).ready(function() {
 
         
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>com.intuit.karate.exception.KarateException:</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
-
 
         
         
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>10:42:38.867 assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
 
         
 

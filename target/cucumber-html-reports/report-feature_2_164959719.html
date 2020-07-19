@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports  - Feature: examples/users/users.feature</title>
+<title>Cucumber Reports  - Feature: resources/features/users.feature</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demo</td>
-            <td>18 Jul 2020, 10:42</td>
+            <td>19 Jul 2020, 10:59</td>
     </tr>
   </tbody>
 </table>
@@ -126,20 +126,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">examples/users/users.feature</td>
-          <td      class="passed"    >43</td>
-          <td      class="failed"    >2</td>
+          <td class="tagname">resources/features/users.feature</td>
+          <td      class="passed"    >45</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">45</td>
 
-          <td  class="passed"    >4</td>
-          <td  class="failed"    >2</td>
+          <td  class="passed"    >6</td>
+          <td >0</td>
           <td class="total">6</td>
 
-          <td class="duration" data-value="3460204526">3.460</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="3612456902">3.612</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -171,9 +171,9 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">examples/users/users.feature</span>
+  <span class="name">resources/features/users.feature</span>
   
 
   </div>
@@ -250,7 +250,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>10:42:37.131 karate.env system property was:</pre>
+        <pre>10:59:17.682 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -283,7 +283,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
 
   
-  <span class="lead-duration duration">0.730</span>
+  <span class="lead-duration duration">0.845</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -352,7 +352,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method get</span>
   
-  <span class="lead-duration duration">0.325</span>
+  <span class="lead-duration duration">0.419</span>
 
 </div>
 
@@ -370,38 +370,38 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>10:42:37.131 request:
+        <pre>10:59:17.686 request:
 1 &gt; GET https://jsonplaceholder.typicode.com/users
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: jsonplaceholder.typicode.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-10:42:37.455 response time in milliseconds: 319.54
+10:59:18.102 response time in milliseconds: 415.02
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
-1 &lt; Age: 14490
+1 &lt; Age: 26167
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 5b49b566ae510ff2-MRS
+1 &lt; CF-RAY: 5b520b3219f9dbdf-LHR
 1 &lt; Cache-Control: max-age=43200
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:35 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:15 GMT
 1 &lt; Etag: W/&quot;160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d901edaaba3582020ee43df48ce386ef71595049155; expires=Mon, 17-Aug-20 05:12:35 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=d56fa660304715e804a7caf3173d827a41595136555; expires=Tue, 18-Aug-20 05:29:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
-1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 998
-1 &lt; X-Ratelimit-Reset: 1594345410
-1 &lt; cf-request-id: 0401efb42500000ff28d2c7200000001
+1 &lt; X-Ratelimit-Limit: 10
+1 &lt; X-Ratelimit-Remaining: 9
+1 &lt; X-Ratelimit-Reset: 1593853735
+1 &lt; cf-request-id: 040725534c0000dbdfe83af200000001
 [
   {
     &quot;id&quot;: 1,
@@ -679,7 +679,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">*</span>
   <span class="name">def first = response[0]</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -706,7 +706,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">Given</span>
   <span class="name">path 'users', first.id</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -733,7 +733,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method get</span>
   
-  <span class="lead-duration duration">0.401</span>
+  <span class="lead-duration duration">0.424</span>
 
 </div>
 
@@ -751,24 +751,24 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>10:42:37.463 request:
+        <pre>10:59:18.106 request:
 2 &gt; GET https://jsonplaceholder.typicode.com/users/1
 2 &gt; Accept-Encoding: gzip,deflate
 2 &gt; Connection: Keep-Alive
-2 &gt; Cookie: __cfduid=d901edaaba3582020ee43df48ce386ef71595049155
+2 &gt; Cookie: __cfduid=d56fa660304715e804a7caf3173d827a41595136555
 2 &gt; Host: jsonplaceholder.typicode.com
 2 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-10:42:37.863 response time in milliseconds: 397.21
+10:59:18.528 response time in milliseconds: 420.20
 2 &lt; 200
 2 &lt; Access-Control-Allow-Credentials: true
-2 &lt; Age: 1161
+2 &lt; Age: 1990
 2 &lt; CF-Cache-Status: HIT
-2 &lt; CF-RAY: 5b49b56938f7101e-MRS
+2 &lt; CF-RAY: 5b520b34b90cdc17-LHR
 2 &lt; Cache-Control: max-age=43200
 2 &lt; Connection: keep-alive
 2 &lt; Content-Type: application/json; charset=utf-8
-2 &lt; Date: Sat, 18 Jul 2020 05:12:36 GMT
+2 &lt; Date: Sun, 19 Jul 2020 05:29:16 GMT
 2 &lt; Etag: W/&quot;1fd-+2Y3G3w049iSZtw5t1mzSnunngE&quot;
 2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 2 &lt; Expires: -1
@@ -781,8 +781,8 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 2 &lt; X-Powered-By: Express
 2 &lt; X-Ratelimit-Limit: 10
 2 &lt; X-Ratelimit-Remaining: 9
-2 &lt; X-Ratelimit-Reset: 1593870645
-2 &lt; cf-request-id: 0401efb5c10000101e79185200000001
+2 &lt; X-Ratelimit-Reset: 1593854525
+2 &lt; cf-request-id: 04072554f60000dc178b8a3200000001
 {
   &quot;id&quot;: 1,
   &quot;name&quot;: &quot;Leanne Graham&quot;,
@@ -923,7 +923,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>10:42:37.711 karate.env system property was:</pre>
+        <pre>10:59:18.541 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -956,7 +956,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
 
   
-  <span class="lead-duration duration">0.547</span>
+  <span class="lead-duration duration">0.593</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -1099,7 +1099,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
   
-  <span class="lead-duration duration">0.544</span>
+  <span class="lead-duration duration">0.590</span>
 
 </div>
 
@@ -1117,7 +1117,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-14" class="collapse collapsable-details">
-        <pre>10:42:37.715 request:
+        <pre>10:59:18.547 request:
 1 &gt; POST https://jsonplaceholder.typicode.com/users
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -1127,32 +1127,32 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {&quot;name&quot;:&quot;Test User&quot;,&quot;username&quot;:&quot;testuser&quot;,&quot;email&quot;:&quot;test@user.com&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Has No Name&quot;,&quot;suite&quot;:&quot;Apt. 123&quot;,&quot;city&quot;:&quot;Electri&quot;,&quot;zipcode&quot;:&quot;54321-6789&quot;}}
 
-10:42:38.255 response time in milliseconds: 542.10
+10:59:19.134 response time in milliseconds: 585.60
 1 &lt; 201
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; Access-Control-Expose-Headers: Location
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5b49b56a3e73101a-MRS
+1 &lt; CF-RAY: 5b520b377abfdc4b-LHR
 1 &lt; Cache-Control: no-cache
 1 &lt; Connection: keep-alive
 1 &lt; Content-Length: 216
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:16 GMT
 1 &lt; Etag: W/&quot;d8-pYV7+YuMGP2hxHPU9ARrf97ifDA&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Location: http://jsonplaceholder.typicode.com/users/11
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d21bfbb6d232595a733ccbefe1bafb99b1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=deffed48959ac11aa75086a70c545c1641595136556; expires=Tue, 18-Aug-20 05:29:16 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
 1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 994
-1 &lt; X-Ratelimit-Reset: 1595049192
-1 &lt; cf-request-id: 0401efb6670000101a44062200000001
+1 &lt; X-Ratelimit-Remaining: 995
+1 &lt; X-Ratelimit-Reset: 1595136560
+1 &lt; cf-request-id: 04072556ac0000dc4b8f133200000001
 {
   &quot;name&quot;: &quot;Test User&quot;,
   &quot;username&quot;: &quot;testuser&quot;,
@@ -1210,7 +1210,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">*</span>
   <span class="name">def id = response.id</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1255,7 +1255,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-15" class="collapse collapsable-details">
-        <pre>10:42:38.259 [print] created id is:  11</pre>
+        <pre>10:59:19.137 [print] created id is:  11</pre>
       </div>
     </div>
   </div>
@@ -1346,7 +1346,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-18" class="collapse collapsable-details">
-        <pre>10:42:37.867 karate.env system property was:</pre>
+        <pre>10:59:19.145 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -1377,7 +1377,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </div>
 
   
-  <span class="lead-duration duration">0.317</span>
+  <span class="lead-duration duration">0.418</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
@@ -1473,7 +1473,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method get</span>
   
-  <span class="lead-duration duration">0.316</span>
+  <span class="lead-duration duration">0.417</span>
 
 </div>
 
@@ -1491,38 +1491,38 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-21" class="collapse collapsable-details">
-        <pre>10:42:37.871 request:
+        <pre>10:59:19.148 request:
 1 &gt; GET https://jsonplaceholder.typicode.com/users/10
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: jsonplaceholder.typicode.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-10:42:38.187 response time in milliseconds: 313.69
+10:59:19.563 response time in milliseconds: 413.16
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
-1 &lt; Age: 8
+1 &lt; Age: 2817
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 5b49b56b3e891047-MRS
+1 &lt; CF-RAY: 5b520b3b3bc6dbeb-LHR
 1 &lt; Cache-Control: max-age=43200
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:17 GMT
 1 &lt; Etag: W/&quot;1ff-2iureAUIawGXrTsK9ruBm43T5to&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=ddc898283ed45dee5d11f869e1b3b19511595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=dc98a73e16def7ab248a43da3774147191595136557; expires=Tue, 18-Aug-20 05:29:17 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
-1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 999
-1 &lt; X-Ratelimit-Reset: 1595006308
-1 &lt; cf-request-id: 0401efb700000010476b11e200000001
+1 &lt; X-Ratelimit-Limit: 10
+1 &lt; X-Ratelimit-Remaining: 9
+1 &lt; X-Ratelimit-Reset: 1593868472
+1 &lt; cf-request-id: 04072558fe0000dbeb45ad0200000001
 {
   &quot;id&quot;: 10,
   &quot;name&quot;: &quot;Clementina DuBuque&quot;,
@@ -1690,7 +1690,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-24" class="collapse collapsable-details">
-        <pre>10:42:38.191 karate.env system property was:</pre>
+        <pre>10:59:19.575 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -1723,12 +1723,12 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
 
   
-  <span class="lead-duration duration">0.672</span>
+  <span class="lead-duration duration">0.589</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User can update data using PUT request</span>
   
@@ -1739,16 +1739,16 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </span>
   <div class="description indention"></div>
 
-  <div id="element-25" class="collapse collapsable-details  in ">
+  <div id="element-25" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-26">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -1758,7 +1758,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
   </div>
 
-  <div id="steps-26" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-26" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -1886,7 +1886,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method PUT</span>
   
-  <span class="lead-duration duration">0.669</span>
+  <span class="lead-duration duration">0.587</span>
 
 </div>
 
@@ -1904,7 +1904,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-28" class="collapse collapsable-details">
-        <pre>10:42:38.195 request:
+        <pre>10:59:19.581 request:
 1 &gt; PUT https://jsonplaceholder.typicode.com/posts/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -1914,30 +1914,30 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {&quot;id&quot;:1,&quot;title&quot;:&quot;updating Resource using PUT&quot;}
 
-10:42:38.863 response time in milliseconds: 665.63
+10:59:20.165 response time in milliseconds: 581.90
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5b49b56d5f3c100a-MRS
+1 &lt; CF-RAY: 5b520b3dfef50732-LHR
 1 &lt; Cache-Control: no-cache
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:36 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:17 GMT
 1 &lt; Etag: W/&quot;37-nfobnNTsy49QtC6btD3FMHDQEC8&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=ddea1055aa560fa155263111245ee43fb1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=dded7de2857dc68798b749716dd33aec31595136557; expires=Tue, 18-Aug-20 05:29:17 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
 1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 993
-1 &lt; X-Ratelimit-Reset: 1595049192
-1 &lt; cf-request-id: 0401efb8560000100ae8bf4200000001
+1 &lt; X-Ratelimit-Remaining: 994
+1 &lt; X-Ratelimit-Reset: 1595136560
+1 &lt; cf-request-id: 0407255ab800000732089d5200000001
 {
   &quot;id&quot;: 1,
   &quot;title&quot;: &quot;updating Resource using PUT&quot;
@@ -2005,7 +2005,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
           <a>Doc string</a>
       </div>
       <div id="msg-29" class="collapse collapsable-details">
-        <pre>10:42:38.863 [print] {
+        <pre>10:59:20.166 [print] {
   &quot;id&quot;: 1,
   &quot;title&quot;: &quot;updating Resource using PUT&quot;
 }</pre>
@@ -2023,11 +2023,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updated Resource&quot;}</span>
+  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updating Resource using PUT&quot;}</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -2036,30 +2036,9 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
         
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-30">
-          <a>com.intuit.karate.exception.KarateException:</a>
-      </div>
-      <div id="msg-30" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
-
 
         
         
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-31" class="collapse collapsable-details">
-        <pre>10:42:38.867 assertion failed: path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
 
         
 
@@ -2090,7 +2069,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-32">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-30">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -2103,14 +2082,14 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </span>
   <div class="description indention"></div>
 
-  <div id="element-32" class="collapse collapsable-details ">
+  <div id="element-30" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-33">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-31">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2122,7 +2101,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
   </div>
 
-  <div id="steps-33" class="inner-level collapse collapsable-details ">
+  <div id="steps-31" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2143,11 +2122,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-32">
           <a>Doc string</a>
       </div>
-      <div id="msg-34" class="collapse collapsable-details">
-        <pre>10:42:38.267 karate.env system property was:</pre>
+      <div id="msg-32" class="collapse collapsable-details">
+        <pre>10:59:20.180 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -2180,12 +2159,12 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
 
   
-  <span class="lead-duration duration">0.594</span>
+  <span class="lead-duration duration">0.583</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-35">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-33">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User can update data using PATCH request</span>
   
@@ -2196,16 +2175,16 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </span>
   <div class="description indention"></div>
 
-  <div id="element-35" class="collapse collapsable-details  in ">
+  <div id="element-33" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-36">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-34">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -2215,7 +2194,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
   </div>
 
-  <div id="steps-36" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-34" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2263,10 +2242,10 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
           <a>Doc string</a>
       </div>
-      <div id="msg-37" class="collapse collapsable-details">
+      <div id="msg-35" class="collapse collapsable-details">
         <pre>{
   id: 1,
   title: 'updating Resource using patch',
@@ -2343,7 +2322,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method PATCH</span>
   
-  <span class="lead-duration duration">0.591</span>
+  <span class="lead-duration duration">0.576</span>
 
 </div>
 
@@ -2357,11 +2336,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
           <a>Doc string</a>
       </div>
-      <div id="msg-38" class="collapse collapsable-details">
-        <pre>10:42:38.275 request:
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>10:59:20.185 request:
 1 &gt; PATCH https://jsonplaceholder.typicode.com/posts/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -2371,30 +2350,30 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 {&quot;id&quot;:1,&quot;title&quot;:&quot;updating Resource using patch&quot;}
 
-10:42:38.863 response time in milliseconds: 587.64
+10:59:20.760 response time in milliseconds: 572.41
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5b49b56dfbc6e938-MRS
+1 &lt; CF-RAY: 5b520b41a849dc07-LHR
 1 &lt; Cache-Control: no-cache
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:18 GMT
 1 &lt; Etag: W/&quot;f7-/59QfOa6r5bFgo6Fmub51FfQpJM&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d4ca25cec5ad13139d7710e832b1e3b1d1595049156; expires=Mon, 17-Aug-20 05:12:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=d8577552215870ab46cafc5f3fd09a3e21595136558; expires=Tue, 18-Aug-20 05:29:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
 1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 992
-1 &lt; X-Ratelimit-Reset: 1595049192
-1 &lt; cf-request-id: 0401efb8b90000e938851e4200000001
+1 &lt; X-Ratelimit-Remaining: 993
+1 &lt; X-Ratelimit-Reset: 1595136560
+1 &lt; cf-request-id: 0407255d0a0000dc071f83a200000001
 {
   &quot;userId&quot;: 1,
   &quot;id&quot;: 1,
@@ -2460,11 +2439,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
           <a>Doc string</a>
       </div>
-      <div id="msg-39" class="collapse collapsable-details">
-        <pre>10:42:38.863 [print] {
+      <div id="msg-37" class="collapse collapsable-details">
+        <pre>10:59:20.762 [print] {
   &quot;id&quot;: 1,
   &quot;title&quot;: &quot;updating Resource using patch&quot;,
   &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;,
@@ -2484,11 +2463,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updated Resource using patch&quot;}</span>
+  <span class="name">match response contains {&quot;id&quot;: 1, &quot;title&quot;: &quot;updating Resource using patch&quot;}</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -2497,30 +2476,9 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
         
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-40">
-          <a>com.intuit.karate.exception.KarateException:</a>
-      </div>
-      <div id="msg-40" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
-
 
         
         
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-41">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-41" class="collapse collapsable-details">
-        <pre>10:42:38.867 assertion failed: path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal</pre>
-      </div>
-    </div>
-  </div>
 
         
 
@@ -2551,7 +2509,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-42">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-38">
     
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -2564,14 +2522,14 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </span>
   <div class="description indention"></div>
 
-  <div id="element-42" class="collapse collapsable-details ">
+  <div id="element-38" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-43">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-39">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2583,7 +2541,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
   </div>
 
-  <div id="steps-43" class="inner-level collapse collapsable-details ">
+  <div id="steps-39" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2604,11 +2562,11 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-44">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-40">
           <a>Doc string</a>
       </div>
-      <div id="msg-44" class="collapse collapsable-details">
-        <pre>10:42:38.875 karate.env system property was:</pre>
+      <div id="msg-40" class="collapse collapsable-details">
+        <pre>10:59:20.779 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -2641,10 +2599,10 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
       </div>
 
   
-  <span class="lead-duration duration">0.597</span>
+  <span class="lead-duration duration">0.580</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-45">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-41">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -2657,14 +2615,14 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   </span>
   <div class="description indention"></div>
 
-  <div id="element-45" class="collapse collapsable-details ">
+  <div id="element-41" class="collapse collapsable-details ">
     
 
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-46">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-42">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2676,7 +2634,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
 
   </div>
 
-  <div id="steps-46" class="inner-level collapse collapsable-details ">
+  <div id="steps-42" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -2737,7 +2695,7 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
   <span class="keyword indention">When</span>
   <span class="name">method DELETE</span>
   
-  <span class="lead-duration duration">0.596</span>
+  <span class="lead-duration duration">0.579</span>
 
 </div>
 
@@ -2751,41 +2709,41 @@ for help, see: https://github.com/intuit/karate/wiki/IDE-Support</div>
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-47">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-43">
           <a>Doc string</a>
       </div>
-      <div id="msg-47" class="collapse collapsable-details">
-        <pre>10:42:38.883 request:
+      <div id="msg-43" class="collapse collapsable-details">
+        <pre>10:59:20.784 request:
 1 &gt; DELETE https://jsonplaceholder.typicode.com/posts/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: jsonplaceholder.typicode.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_151)
 
-10:42:39.474 response time in milliseconds: 591.91
+10:59:21.361 response time in milliseconds: 576.60
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5b49b571ab750fda-MRS
+1 &lt; CF-RAY: 5b520b456c97dc43-LHR
 1 &lt; Cache-Control: no-cache
 1 &lt; Connection: keep-alive
 1 &lt; Content-Length: 2
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 18 Jul 2020 05:12:37 GMT
+1 &lt; Date: Sun, 19 Jul 2020 05:29:19 GMT
 1 &lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Expires: -1
 1 &lt; Pragma: no-cache
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=db579f8ca879f2abb9931946b861b518c1595049157; expires=Mon, 17-Aug-20 05:12:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=dd9c9d3c42794b1023e9270d4645633c11595136558; expires=Tue, 18-Aug-20 05:29:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Vary: Origin, Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Powered-By: Express
 1 &lt; X-Ratelimit-Limit: 1000
-1 &lt; X-Ratelimit-Remaining: 991
-1 &lt; X-Ratelimit-Reset: 1595049192
-1 &lt; cf-request-id: 0401efbb0400000fda681eb200000001
+1 &lt; X-Ratelimit-Remaining: 999
+1 &lt; X-Ratelimit-Reset: 1595136620
+1 &lt; cf-request-id: 0407255f5f0000dc43b936c200000001
 {}</pre>
       </div>
     </div>

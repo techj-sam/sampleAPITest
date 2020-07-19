@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/soapSample.feature" skipped="0" tests="1" time="0.549553">
-  <testcase classname="examples.users.soapSample" name="User should be able to get capital of the country" time="0.549553">
+<testsuite failures="0" name="resources/features/soapSample.feature" skipped="0" tests="1" time="0.336383">
+  <testcase classname="resources.features.soapSample" name="User should be able to get capital of the country" time="0.336383">
     <system-out>* url "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL" . passed
 Given request ............................................................. passed
 And soap action 'CapitalCity' ............................................. passed

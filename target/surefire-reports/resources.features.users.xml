@@ -1,5 +1,5 @@
-<testsuite failures="2" name="examples/users/users.feature" skipped="0" tests="6" time="3.460205">
-  <testcase classname="examples.users.users" name="get all users and then get the first user by id" time="0.730346">
+<testsuite failures="0" name="resources/features/users.feature" skipped="0" tests="6" time="3.612457">
+  <testcase classname="resources.features.users" name="get all users and then get the first user by id" time="0.845503">
     <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given path 'users' ........................................................ passed
 When method get ........................................................... passed
@@ -9,7 +9,7 @@ Given path 'users', first.id .............................................. pass
 When method get ........................................................... passed
 Then status 200 ........................................................... passed</system-out>
   </testcase>
-  <testcase classname="examples.users.users" name="create a user and then get it by id" time="0.548199">
+  <testcase classname="resources.features.users" name="create a user and then get it by id" time="0.593674">
     <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given path 'users' ........................................................ passed
 When method get ........................................................... passed
@@ -27,7 +27,7 @@ Then status 201 ........................................................... pass
 * def id = response.id .................................................... passed
 * print 'created id is: ', id ............................................. passed</system-out>
   </testcase>
-  <testcase classname="examples.users.users" name="User should get a specific user information based on provided id" time="0.317406">
+  <testcase classname="resources.features.users" name="User should get a specific user information based on provided id" time="0.418514">
     <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given path 'users' ........................................................ passed
 When method get ........................................................... passed
@@ -51,95 +51,7 @@ When method get ........................................................... pass
 Then status 200 ........................................................... passed
 And match response contains {"name": "Clementina DuBuque"} ................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.users" name="User can update data using PUT request" time="0.672177">
-    <failure message="users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal">* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given path 'users' ........................................................ passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-* def first = response[0] ................................................. passed
-Given path 'users', first.id .............................................. passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-* def user = .............................................................. passed
-Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
-And request user .......................................................... passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
-* def id = response.id .................................................... passed
-* print 'created id is: ', id ............................................. passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
-And path 10 ............................................................... passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-And match response contains {"name": "Clementina DuBuque"} ................ passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
-* def user  = ............................................................. passed
-Given path 1 .............................................................. passed
-And request user .......................................................... passed
-When method PUT ........................................................... passed
-Then status 200 ........................................................... passed
-And print response ........................................................ passed
-And match response contains {"id": 1, "title": "updated Resource"} ........ failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal&#13;
-	at ✽.And match response contains {"id": 1, "title": "updated Resource"} (users.feature:68)</failure>
-  </testcase>
-  <testcase classname="examples.users.users" name="User can update data using PATCH request" time="0.594458">
-    <failure message="users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal">* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given path 'users' ........................................................ passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-* def first = response[0] ................................................. passed
-Given path 'users', first.id .............................................. passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-* def user = .............................................................. passed
-Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
-And request user .......................................................... passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
-* def id = response.id .................................................... passed
-* print 'created id is: ', id ............................................. passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
-And path 10 ............................................................... passed
-When method get ........................................................... passed
-Then status 200 ........................................................... passed
-And match response contains {"name": "Clementina DuBuque"} ................ passed
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
-* def user  = ............................................................. passed
-Given path 1 .............................................................. passed
-And request user .......................................................... passed
-When method PUT ........................................................... passed
-Then status 200 ........................................................... passed
-And print response ........................................................ passed
-And match response contains {"id": 1, "title": "updated Resource"} ........ failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal&#13;
-	at ✽.And match response contains {"id": 1, "title": "updated Resource"} (users.feature:68)&#13;
-
-* url 'https://jsonplaceholder.typicode.com' .............................. passed
-Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
-* def user  = ............................................................. passed
-Given path 1 .............................................................. passed
-And request user .......................................................... passed
-When method PATCH ......................................................... passed
-Then status 200 ........................................................... passed
-And print response ........................................................ passed
-And match response contains {"id": 1, "title": "updated Resource using patch"} . failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal&#13;
-	at ✽.And match response contains {"id": 1, "title": "updated Resource using patch"} (users.feature:85)</failure>
-  </testcase>
-  <testcase classname="examples.users.users" name="User can delete data using Delete request" time="0.597619">
+  <testcase classname="resources.features.users" name="User can update data using PUT request" time="0.590039">
     <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given path 'users' ........................................................ passed
 When method get ........................................................... passed
@@ -170,12 +82,40 @@ And request user .......................................................... pass
 When method PUT ........................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed
-And match response contains {"id": 1, "title": "updated Resource"} ........ failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: users.feature:68 - path: $.title, actual: 'updating Resource using PUT', expected: 'updated Resource', reason: not equal&#13;
-	at ✽.And match response contains {"id": 1, "title": "updated Resource"} (users.feature:68)&#13;
-
+And match response contains {"id": 1, "title": "updating Resource using PUT"} . passed</system-out>
+  </testcase>
+  <testcase classname="resources.features.users" name="User can update data using PATCH request" time="0.583991">
+    <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given path 'users' ........................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def first = response[0] ................................................. passed
+Given path 'users', first.id .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+* def user = .............................................................. passed
+Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
+And request user .......................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* def id = response.id .................................................... passed
+* print 'created id is: ', id ............................................. passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
+And path 10 ............................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response contains {"name": "Clementina DuBuque"} ................ passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
+* def user  = ............................................................. passed
+Given path 1 .............................................................. passed
+And request user .......................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response contains {"id": 1, "title": "updating Resource using PUT"} . passed
 * url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
 * def user  = ............................................................. passed
@@ -184,12 +124,49 @@ And request user .......................................................... pass
 When method PATCH ......................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed
-And match response contains {"id": 1, "title": "updated Resource using patch"} . failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: users.feature:85 - path: $.title, actual: 'updating Resource using patch', expected: 'updated Resource using patch', reason: not equal&#13;
-	at ✽.And match response contains {"id": 1, "title": "updated Resource using patch"} (users.feature:85)&#13;
-
+And match response contains {"id": 1, "title": "updating Resource using patch"} . passed</system-out>
+  </testcase>
+  <testcase classname="resources.features.users" name="User can delete data using Delete request" time="0.580737">
+    <system-out>* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given path 'users' ........................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def first = response[0] ................................................. passed
+Given path 'users', first.id .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+* def user = .............................................................. passed
+Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
+And request user .......................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* def id = response.id .................................................... passed
+* print 'created id is: ', id ............................................. passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
+And path 10 ............................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response contains {"name": "Clementina DuBuque"} ................ passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
+* def user  = ............................................................. passed
+Given path 1 .............................................................. passed
+And request user .......................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response contains {"id": 1, "title": "updating Resource using PUT"} . passed
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
+* def user  = ............................................................. passed
+Given path 1 .............................................................. passed
+And request user .......................................................... passed
+When method PATCH ......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response contains {"id": 1, "title": "updating Resource using patch"} . passed
 * url 'https://jsonplaceholder.typicode.com' .............................. passed
 Given url 'https://jsonplaceholder.typicode.com/posts' .................... passed
 Given path 1 .............................................................. passed

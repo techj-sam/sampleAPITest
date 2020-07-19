@@ -1,6 +1,4 @@
-package examples;
-
-//import com.intuit.karate.FileUtils;
+package resources;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
@@ -15,9 +13,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-//import static org.testng.AssertJUnit.assertTrue;
-
-class ExamplesTest {
+class TestRunner {
 
     // this will run all *.feature files that exist in sub-directories
     // see https://github.com/intuit/karate#naming-conventions
@@ -27,11 +23,11 @@ class ExamplesTest {
         return Karate.run().relativeTo(getClass());
     }
 
+
     @Test
     void testruninParallel() {
        Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
-//        Results results = Runner.path("classpath:examples").tags("~@ignore").parallel(2);
-        ExamplesTest.generateReport(results.getReportDir());
+        generateReport(results.getReportDir());
         if (results.getFailCount()!=0){
             System.out.println( results.getErrorMessages());
         }

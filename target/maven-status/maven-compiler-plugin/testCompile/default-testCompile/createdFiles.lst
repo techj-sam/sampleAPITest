@@ -1,2 +1,2 @@
-examples\ExamplesTest.class
-examples\users\UsersRunner.class
+resources\features\UsersRunner.class
+resources\TestRunner.class

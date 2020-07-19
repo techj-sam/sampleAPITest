@@ -65,7 +65,7 @@ Feature: sample karate test script
     When method PUT
     Then status 200
     And print response
-    And match response contains {"id": 1, "title": "updated Resource"}
+    And match response contains {"id": 1, "title": "updating Resource using PUT"}
 
   @PatchRequest
   Scenario: User can update data using PATCH request
@@ -82,7 +82,7 @@ Feature: sample karate test script
     When method PATCH
     Then status 200
     And print response
-    And match response contains {"id": 1, "title": "updated Resource using patch"}
+    And match response contains {"id": 1, "title": "updating Resource using patch"}
 
   @DeleteRequest
   Scenario: User can delete data using Delete request
