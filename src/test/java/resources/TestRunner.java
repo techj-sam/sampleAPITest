@@ -28,14 +28,13 @@ class TestRunner {
     void testruninParallel() {
        Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
         generateReport(results.getReportDir());
-        System.out.println("-------------------478467867875--------------------------"+results.getReportDir());
         if (results.getFailCount()!=0){
             System.out.println( results.getErrorMessages());
         }
     }
 
     private static void generateReport(String reportDir) {
-        Collection<File> jsonFiles = FileUtils.listFiles(new File(reportDir), new String[]{"json"}, true);
+        Collection<File> jsonFiles = FileUtils.listFiles(new File(reportDir), new String[]{"json"}, false);
         List<String> jsonPaths = new ArrayList(jsonFiles.size());
         jsonFiles.forEach(file -> jsonPaths.add(file.getAbsolutePath()));
         Configuration config = new Configuration(new File("target"), "demo");
