@@ -34,7 +34,7 @@ class TestRunner {
     }
 
     private static void generateReport(String reportDir) {
-        Collection<File> jsonFiles = FileUtils.listFiles(new File(reportDir), new String[]{"json"}, false);
+        Collection<File> jsonFiles = FileUtils.listFiles(new File(reportDir), new String[]{"json"}, true);
         List<String> jsonPaths = new ArrayList(jsonFiles.size());
         jsonFiles.forEach(file -> jsonPaths.add(file.getAbsolutePath()));
         Configuration config = new Configuration(new File("target"), "demo");
