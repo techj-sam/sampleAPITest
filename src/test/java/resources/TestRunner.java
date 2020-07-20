@@ -27,7 +27,7 @@ class TestRunner {
     @Test
     void testruninParallel() {
        Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
-        generateReport(results.getReportDir());
+//        generateReport(results.getReportDir());
         if (results.getFailCount()!=0){
             System.out.println( results.getErrorMessages());
         }
