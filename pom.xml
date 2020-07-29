@@ -38,19 +38,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.4.0</version>
-            <scope>test</scope>
-        </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.testng</groupId>-->
-<!--            <artifactId>testng</artifactId>-->
-<!--            <version>6.14.3</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
-<!--         https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting-->
-        <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>maven-cucumber-reporting</artifactId>
             <version>4.10.0</version>
@@ -84,17 +71,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
             </plugin>
-            <plugin>
-                    <groupId>io.gatling</groupId>
-                    <artifactId>gatling-maven-plugin</artifactId>
-                    <version>3.0.2</version>
-                <configuration>
-                     <simulationsFolder>src/test/java</simulationsFolder>
-                    <includes>
-                        <include>Performance.UserSimulation</include>
-                    </includes>
-                </configuration>
-            </plugin>
+
         </plugins>
     </build>
 

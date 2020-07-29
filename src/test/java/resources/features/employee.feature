@@ -21,6 +21,7 @@ Feature: sample karate session scenario
       | employeeID |
       | 3          |
       | 4          |
+      | 101        |
 
   Scenario:  User should be able to create a new employee
     Given path "api/v1/create"
