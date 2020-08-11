@@ -16,12 +16,13 @@ Feature: sample karate session scenario
     And method GET
     And status 200
     And print response
+    And match $ contains { data: '#notnull'}
 
     Examples:
       | employeeID |
       | 3          |
       | 4          |
-      | 101        |
+      | 26789      |
 
   Scenario:  User should be able to create a new employee
     Given path "api/v1/create"
