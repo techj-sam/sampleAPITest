@@ -1,0 +1,12 @@
+{ 
+ "status": "success",
+  "data": {
+    "profile_image": "",
+    "employee_name": "#string",
+    "employee_salary": "#number",
+    "id": "#number",
+    "employee_age": 66
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}

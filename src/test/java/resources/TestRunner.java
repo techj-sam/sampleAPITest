@@ -23,7 +23,6 @@ class TestRunner {
         return Karate.run().relativeTo(getClass());
     }
 
-
     @Test
     void testruninParallel() {
        Results results = Runner.parallel(getClass(), 1, "target/surefire-reports");
